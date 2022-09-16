@@ -1,0 +1,1455 @@
+pc= 4 Ins = 00010000110001100011000000000000
+op10
+r3 tye op2 0 dest 3 rd0
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 3 imm 12288
+bt 12291
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 4
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 5 Ins = 00010001000010000100000000000000
+op10
+r3 tye op2 0 dest 4 rd0
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 4 imm 16384
+bt 16388
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 5
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 6 Ins = 10110000000100000000000000000010
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 8 imm 2
+bt 7
+alu 2
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 6
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 7 Ins = 11011000110100000000000000000011
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 2 dest 8 imm 3
+bt 9
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 9
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 10 Ins = 00001000110010000000000000000001
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 4 imm 1
+bt 10
+alu 1
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 10
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 11 Ins = 11011001000100000000000000000011
+op11
+We are in EX
+rs1 =1 rs2=0 
+rdval 2 dest 8 imm 3
+bt 13
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 13
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 14 Ins = 10110000110010100000000000000000
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 5 imm 0
+bt 13
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 14
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 40
+x6	: 0
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 15 Ins = 10110001000011000000000000000000
+op11
+We are in EX
+rs1 =1 rs2=0 
+rdval 0 dest 6 imm 0
+bt 14
+alu 1
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 15
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 40
+x6	: 60
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 16 Ins = 11011001010011000000000000000011
+op140
+We are in EX
+rs1 =40 rs2=0 
+rdval 60 dest 6 imm 3
+bt 18
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 18
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 40
+x6	: 60
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 19 Ins = 00010001110011100111000000000000
+op10
+r3 tye op2 0 dest 7 rd0
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 7 imm 28672
+bt 28690
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 19
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 40
+x6	: 60
+x7	: 0
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 20 Ins = 00000000000010100111000000000000
+op10
+r3 tye op2 40 dest 7 rd0
+We are in EX
+rs1 =0 rs2=40 
+rdval 0 dest 7 imm 28672
+bt 28691
+alu 40
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 20
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 21 Ins = 10111001100001100000000000000000
+op160
+We are in EX
+rs1 =60 rs2=60 
+rdval 0 dest 0 imm 0
+bt 20
+alu 0
+we are MEM
+we are in MEM
+storing in mem 0 rs1 60
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 21
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 22 Ins = 10111001110010000000000000000000
+op140
+We are in EX
+rs1 =40 rs2=40 
+rdval 1 dest 0 imm 0
+bt 21
+alu 1
+we are MEM
+we are in MEM
+storing in mem 1 rs1 40
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 22
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 1
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 23 Ins = 00001001000010000000000000000001
+op11
+We are in EX
+rs1 =1 rs2=0 
+rdval 1 dest 4 imm 1
+bt 23
+alu 2
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 23
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 24 Ins = 11000000001111111111111111110011
+rd 0 offset-13
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 31 imm -13
+bt 10
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 10
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 11 Ins = 11011001000100000000000000000011
+op12
+We are in EX
+rs1 =2 rs2=0 
+rdval 2 dest 8 imm 3
+bt 13
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 12 Ins = 00001000110001100000000000000001
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 3 imm 1
+bt 12
+alu 1
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 12
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 13 Ins = 11000000001111111111111111111010
+rd 0 offset-6
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 31 imm -6
+bt 6
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 6
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 7 Ins = 11011000110100000000000000000011
+op11
+We are in EX
+rs1 =1 rs2=0 
+rdval 2 dest 8 imm 3
+bt 9
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 9
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 10 Ins = 00001000110010000000000000000001
+op11
+We are in EX
+rs1 =1 rs2=0 
+rdval 2 dest 4 imm 1
+bt 10
+alu 2
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 10
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 11 Ins = 11011001000100000000000000000011
+op12
+We are in EX
+rs1 =2 rs2=0 
+rdval 2 dest 8 imm 3
+bt 13
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 12 Ins = 00001000110001100000000000000001
+op11
+We are in EX
+rs1 =1 rs2=0 
+rdval 1 dest 3 imm 1
+bt 12
+alu 2
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 12
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 13 Ins = 11000000001111111111111111111010
+rd 0 offset-6
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 31 imm -6
+bt 6
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 6
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 7 Ins = 11011000110100000000000000000011
+op12
+We are in EX
+rs1 =2 rs2=0 
+rdval 2 dest 8 imm 3
+bt 9
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+pc= 8 Ins = 11101000000000000000000000000000
+op10
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 0 imm 0
+bt 7
+alu 0
+we are MEM
+we are in MEM
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 2
+x5	: 40
+x6	: 60
+x7	: 40
+x8	: 2
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+
+Main Memory Contents:
+
+0		: 60
+1		: 40
+2		: 2
+3		: 281423872
+4		: 285753344
+5		: -1341128702
+6		: -657457149
+7		: -402653184
+8		: 147324929
+9		: 147324929
+10		: -653262845
+11		: 147193857
+12		: -1069547526
+13		: -1328939008
+14		: -1324613632
+15		: -649330685
+16		: 151519233
+17		: -1069547527
+18		: 298741760
+19		: 684032
+20		: -1182400512
+21		: -1178075136
+22		: 151519233
+23		: -1069547533
+24		: 0
+25		: 0
+26		: 0
+27		: 0
+28		: 0
+29		: 0
+30		: 0
+31		: 0
+32		: 0
+33		: 0
+34		: 0
+35		: 0
+36		: 0
+37		: 0
+38		: 0
+39		: 0
+40		: 0
+41		: 0
+42		: 0
+43		: 0
+44		: 0
+45		: 0
+46		: 0
+47		: 0
+48		: 0
+49		: 0
+50		: 0
+51		: 0
+52		: 0
+53		: 0
+54		: 0
+55		: 0
+56		: 0
+57		: 0
+58		: 0
+59		: 0
+60		: 0
+61		: 0
+62		: 0
+63		: 0
+64		: 0
+65		: 0
+66		: 0
+67		: 0
+68		: 0
+69		: 0
+70		: 0
+71		: 0
+72		: 0
+73		: 0
+74		: 0
+75		: 0
+76		: 0
+77		: 0
+78		: 0
+79		: 0
+80		: 0
+81		: 0
+82		: 0
+83		: 0
+84		: 0
+85		: 0
+86		: 0
+87		: 0
+88		: 0
+89		: 0
+90		: 0
+91		: 0
+92		: 0
+93		: 0
+94		: 0
+95		: 0
+96		: 0
+97		: 0
+98		: 0
+99		: 0
+100		: 0
+101		: 0
+102		: 0
+103		: 0
+104		: 0
+105		: 0
+106		: 0
+107		: 0
+108		: 0
+109		: 0
+110		: 0
+111		: 0
+112		: 0
+113		: 0
+114		: 0
+115		: 0
+116		: 0
+117		: 0
+118		: 0
+119		: 0
+120		: 0
+121		: 0
+122		: 0
+123		: 0
+124		: 0
+125		: 0
+126		: 0
+127		: 0
+128		: 0
+129		: 0
+130		: 0
+131		: 0
+132		: 0
+133		: 0
+134		: 0
+135		: 0
+136		: 0
+137		: 0
+138		: 0
+139		: 0
+140		: 0
+141		: 0
+142		: 0
+143		: 0
+144		: 0
+145		: 0
+146		: 0
+147		: 0
+148		: 0
+149		: 0
+150		: 0
+
+
+Hash of the Processor State = -1311049389
