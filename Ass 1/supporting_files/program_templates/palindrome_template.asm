@@ -1,10 +1,11 @@
 	.data
 a:
-	765
+	87873
 	.text
 main:
 	load %x23, $a, %x5
 	load %x23, $a, %x4
+	addi %x13, 13, %x13
 	addi %x10, 1, %x10
 	addi %x7, 1, %x7
 writerev:
@@ -19,7 +20,9 @@ checkrev:
 	bne %x30, %x31, notpalindrome
 	subi %x7, 1, %x7
 	bgt %x4, %x11, checkrev
+	store %x10, $a, %x13
 	end
 notpalindrome:
 	subi %x10, 2, %x10
+	store %x10, $a, %x13
 	end
