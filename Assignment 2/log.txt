@@ -1,0 +1,30 @@
+Buildfile: /home/anand/5th sem/comp_arch/Ass 2/CS311_assignment2/build.xml
+
+build-subprojects:
+
+init:
+     [copy] Warning: configuration/config.xml modified in the future.
+     [copy] Copying 1 file to /home/anand/5th sem/comp_arch/Ass 2/CS311_assignment2/bin
+
+build-project:
+     [echo] CustomISAAssembler: /home/anand/5th sem/comp_arch/Ass 2/CS311_assignment2/build.xml
+    [javac] Warning: configuration/Configuration.java modified in the future.
+    [javac] Warning: configuration/config.xml modified in the future.
+    [javac] Warning: generic/Instruction.java modified in the future.
+    [javac] Warning: generic/Misc.java modified in the future.
+    [javac] Warning: generic/Operand.java modified in the future.
+    [javac] Warning: generic/ParsedProgram.java modified in the future.
+    [javac] Warning: generic/Statistics.java modified in the future.
+    [javac] Warning: main/Main.java modified in the future.
+    [javac] Compiling 8 source files to /home/anand/5th sem/comp_arch/Ass 2/CS311_assignment2/bin
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 8
+    [javac] /home/anand/5th sem/comp_arch/Ass 2/CS311_assignment2/src/generic/Simulator.java:28: warning: as of release 10, 'var' is a restricted local variable type and cannot be used for type declarations or as the element type of an array
+    [javac] 		for(var cmd: ParsedProgram.code){
+    [javac] 		        ^
+    [javac] /home/anand/5th sem/comp_arch/Ass 2/CS311_assignment2/src/generic/Simulator.java:28: error: cannot find symbol
+    [javac] 		for(var cmd: ParsedProgram.code){
+    [javac] 		    ^
+    [javac]   symbol:   class var
+    [javac]   location: class Simulator
+    [javac] 1 error
+    [javac] 2 warnings
