@@ -106,7 +106,8 @@ public class Simulator {
 		// TODO
 		// set statistics
 		Statistics statistics = new Statistics();
-		setSimulationComplete(no_of_instructions);
+		statistics.setNumberOfInstructions(no_of_instructions);
+		statistics.setNumberOfCycles((int) Clock.getCurrentTime());
 		
 
 	}
