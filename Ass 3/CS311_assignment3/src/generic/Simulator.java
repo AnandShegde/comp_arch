@@ -40,7 +40,7 @@ public class Simulator {
 			
 			// write the data into the memory starting from 0
 			inputfile.read(buffer);
-			int pc = ByteBuffer.wrap(buffer).getInt()+1;
+			int pc = ByteBuffer.wrap(buffer).getInt();
 			processor.getRegisterFile().setProgramCounter(pc);
 
 			int lineNo = 0;
