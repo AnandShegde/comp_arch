@@ -85,8 +85,11 @@ public class Simulator {
 	
 	public static void simulate()
 	{
+		int no_of_instructions = 0;
 		while(simulationComplete == false)
 		{
+
+
 			processor.getIFUnit().performIF();
 			Clock.incrementClock();
 			processor.getOFUnit().performOF();
@@ -97,10 +100,15 @@ public class Simulator {
 			Clock.incrementClock();
 			processor.getRWUnit().performRW();
 			Clock.incrementClock();
+			no_of_instructions++;
 		}
 		
 		// TODO
 		// set statistics
+		Statistics statistics = new Statistics();
+		setSimulationComplete(no_of_instructions);
+		
+
 	}
 	
 	public static void setSimulationComplete(boolean value)
