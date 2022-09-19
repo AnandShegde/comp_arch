@@ -52,14 +52,8 @@ public class Simulator {
 	}};
 
 	public static String binaryofint(int val, int size){
-		String binaryVal = Integer.toBinaryString(val);
-		if(val < 0){
-			return binaryVal.substring(32-size);
-		}
-		
-		String zeros = "%0" + Integer.toString(size) + "d";
-		binaryVal = String.format(zeros,Integer.parseInt(binaryVal));
-		return binaryVal;
+		String binaryVal = Long.toBinaryString( Integer.toUnsignedLong(val) | 0x100000000L ).substring(1);
+        return binaryVal.substring(32-size);
 	}
 	
 	public static String ConvertLabelled(Operand obj, int bitlen){
