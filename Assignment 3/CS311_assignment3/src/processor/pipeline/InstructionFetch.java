@@ -19,6 +19,7 @@ public class InstructionFetch {
 	
 	public void performIF()
 	{
+		System.out.println("ins fetch");
 		if(IF_EnableLatch.isIF_enable())
 		{
 			int currentPC = containingProcessor.getRegisterFile().getProgramCounter();

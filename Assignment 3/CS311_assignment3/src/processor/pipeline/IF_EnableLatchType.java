@@ -16,5 +16,4 @@ public class IF_EnableLatchType {
 	public void setIF_enable(boolean iF_enable) {
 		IF_enable = iF_enable;
 	}
-
 }

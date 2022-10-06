@@ -88,21 +88,25 @@ public class Simulator {
 		int no_of_instructions = 0;
 		while(simulationComplete == false)
 		{
-
-
+			// System.out.println("simulator");
+			processor.getRWUnit().performRW();
+			processor.getMAUnit().performMA();
+			processor.getEXUnit().performEX();
+			processor.getOFUnit().performOF();
 			processor.getIFUnit().performIF();
 			Clock.incrementClock();
-			processor.getOFUnit().performOF();
-			Clock.incrementClock();
-			processor.getEXUnit().performEX();
-			Clock.incrementClock();
-			processor.getMAUnit().performMA();
-			Clock.incrementClock();
-			processor.getRWUnit().performRW();
-			Clock.incrementClock();
-			no_of_instructions++;
+			// processor.getIFUnit().performIF();
+			// Clock.incrementClock();
+			// processor.getOFUnit().performOF();
+			// Clock.incrementClock();
+			// processor.getEXUnit().performEX();
+			// Clock.incrementClock();
+			// processor.getMAUnit().performMA();
+			// Clock.incrementClock();
+			// processor.getRWUnit().performRW();
+			// Clock.incrementClock();
+			// no_of_instructions++;
 		}
-		
 		// TODO
 		// set statistics
 		Statistics statistics = new Statistics();

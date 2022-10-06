@@ -1,5 +1,10 @@
 package processor.pipeline;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Vector;
+
 public class OF_EX_LatchType {
 	
 	boolean EX_enable;
@@ -11,12 +16,15 @@ public class OF_EX_LatchType {
 	
 	int destination;
 
+	// HashMap<Integer, Integer> registersUsed = new HashMap<>();
+	List<Integer> registersUsed = new ArrayList<Integer>();   
 
-
-	
 	public OF_EX_LatchType()
 	{
 		EX_enable = false;
+		for(int i = 0 ; i < 16; i++){
+			registersUsed.add(0);
+		}
 	}
 
 	public boolean isEX_enable() {
@@ -85,7 +93,14 @@ public class OF_EX_LatchType {
 	}
 
 
+	//get and set fro register Used
+	public int getRegisterUsed(int index){
+		return registersUsed.get(index);
+	}
 
+	public void setRegisterUsed(int index,int val){
+		registersUsed.set(index, val);
+	}
 
 
 }

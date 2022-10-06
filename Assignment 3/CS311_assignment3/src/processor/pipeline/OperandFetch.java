@@ -12,6 +12,7 @@ public class OperandFetch {
 	Processor containingProcessor;
 	IF_OF_LatchType IF_OF_Latch;
 	OF_EX_LatchType OF_EX_Latch;
+	IF_EnableLatchType IF_EnableLatch;
 
 	public static Map<String,Integer> insType = new HashMap<String, Integer>(){{
 		put("00000",3);
@@ -61,15 +62,17 @@ public class OperandFetch {
 	
 
 	
-	public OperandFetch(Processor containingProcessor, IF_OF_LatchType iF_OF_Latch, OF_EX_LatchType oF_EX_Latch)
+	public OperandFetch(Processor containingProcessor, IF_OF_LatchType iF_OF_Latch, OF_EX_LatchType oF_EX_Latch, IF_EnableLatchType iF_EnableLatch)
 	{
 		this.containingProcessor = containingProcessor;
 		this.IF_OF_Latch = iF_OF_Latch;
 		this.OF_EX_Latch = oF_EX_Latch;
+		this.IF_EnableLatch = iF_EnableLatch;
 	}
 	
 	public void performOF()
 	{
+		System.out.println("operand fetch");
 		if(IF_OF_Latch.isOF_enable())
 		{
 			//TODO
@@ -115,58 +118,105 @@ public class OperandFetch {
 			
 			
 			// set op1
-			int op1 = containingProcessor.getRegisterFile().getValue(
-				(int)Long.parseLong(ins.substring(5,10),2)
-				);
+			int rs1 = (int)Long.parseLong(ins.substring(5,10),2);
+			int op1 = containingProcessor.getRegisterFile().getValue(rs1);
 
-			System.out.println("op1" + op1);
-			OF_EX_Latch.setOp1(op1);
+			System.out.println("op1 rs1" + op1 + " "+rs1);
+			
 			
 
 			int dest = 0;
 			//set op2
+			int rs2 = 0;
 			int op2;
 			int rd;
 
 			// R3 type
 			if(insType.get(optcode) == 3){
+				rs2 = (int)Long.parseLong(ins.substring(10,15),2);
 				op2 = containingProcessor.getRegisterFile().getValue(
-					(int)Long.parseLong(ins.substring(10,15),2)  
+					rs2
 				);
 				dest = (int)Long.parseLong(ins.substring(15,20),2);
 				rd = containingProcessor.getRegisterFile().getValue(dest);
-				System.out.println("r3 tye op2 "+op2+" dest "+dest+" rd"+rd);
+				System.out.println("r3 tye op2 rs2 "+op2+" dest "+dest+" rd"+rd+" rs2 "+rs2);
 			}	
 			else if(optcode.equals("10111")){
 				// Store
 				// it is reverse. ie [rd+imm] = rs1
+				dest = (int)Long.parseLong(ins.substring(10,15),2)  ;
 				rd = containingProcessor.getRegisterFile().getValue(
-					(int)Long.parseLong(ins.substring(10,15),2)  
+					dest
 				);
+				rs1 = (int)Long.parseLong(ins.substring(5,10),2);
 				op2 = containingProcessor.getRegisterFile().getValue(
-					(int)Long.parseLong(ins.substring(5,10),2)  
+					rs1
 				);
 			}		
 			else{
+				rs2 = 0;
 				op2 = 0;
 				dest = (int)Long.parseLong(ins.substring(10,15),2);
 				rd = containingProcessor.getRegisterFile().getValue(dest);
 			}
 
-			OF_EX_Latch.setOp2(op2);
-			OF_EX_Latch.setRd(rd);
-			OF_EX_Latch.setDestination(dest);
-			
+			//Assignment 4
+			boolean isDependancy = false;
+			if(insType.get(optcode) == 3){
+				if(OF_EX_Latch.getRegisterUsed(rs1) > 0 || OF_EX_Latch.getRegisterUsed(rs2) > 0){
+					isDependancy = true;
+					OF_EX_Latch.setEX_enable(false);
+					IF_EnableLatch.setIF_enable(false);
+				}
+			}
+			else if(insType.get(optcode) == 2){
+				if(optcode.equals("10111")){
+					if(OF_EX_Latch.getRegisterUsed(rs1) > 0 || OF_EX_Latch.getRegisterUsed(dest) > 0){
+						isDependancy = true;
+						OF_EX_Latch.setEX_enable(false);
+						IF_EnableLatch.setIF_enable(false);
+					}
+				}
+				else{
+					if(OF_EX_Latch.getRegisterUsed(rs1) > 0){
+						isDependancy = true;
+						OF_EX_Latch.setEX_enable(false);
+						IF_EnableLatch.setIF_enable(false);
+					}
+				}
+			}
+			if(!isDependancy){
+				System.out.println("\n\nELSE PARt\n\n\n");
+				IF_EnableLatch.setIF_enable(true);
+				if(insType.get(optcode) == 3 || (insType.get(optcode) == 2 && !optcode.equals("10111"))){
+					// System.out.println("rd "+rd);
+					OF_EX_Latch.setRegisterUsed(dest, 3);
+				}
+				OF_EX_Latch.setOp1(op1);
+				OF_EX_Latch.setOp2(op2);
+				OF_EX_Latch.setRd(rd);
+				OF_EX_Latch.setDestination(dest);
+				
 
-			//end simulation if end
-			
+				//end simulation if end
+				
 
-			// System.out.println("imm17" + immediate17);
-			// System.out.println("offset" + offset);
-			// System.out.println("bt"+branchTarget);
-			// System.out.println("op1 " + op1 + " op2 " + op2 + " rd " +rd);
-			IF_OF_Latch.setOF_enable(false);
-			OF_EX_Latch.setEX_enable(true);
+				// System.out.println("imm17" + immediate17);
+				// System.out.println("offset" + offset);
+				// System.out.println("bt"+branchTarget);
+				// System.out.println("op1 " + op1 + " op2 " + op2 + " rd " +rd);
+				IF_OF_Latch.setOF_enable(false);
+				OF_EX_Latch.setEX_enable(true);
+			}
+			for(int i = 0 ; i < 16; i++){
+				int cur = OF_EX_Latch.getRegisterUsed(i);
+				System.out.println(
+					i + " " + cur
+				);
+				if(cur > 0){
+					OF_EX_Latch.setRegisterUsed(i, cur-1);
+				}
+			}
 		}
 	}
 

@@ -27,6 +27,7 @@ public class Main {
 		processor.printState(0, 150); // ((0, 0) refers to the range of main memory addresses we wish to print. this is an empty set.
 		
 		// Statistics.printStatistics(args[1]);
+		System.out.println(processor.getRegisterFile());
 		
 		System.out.println("Hash of the Processor State = "+getHashCode(processor.getRegisterFile(), processor.getMainMemory()));
 	}
