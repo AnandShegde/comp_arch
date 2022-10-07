@@ -4,6 +4,7 @@ import java.nio.ByteBuffer;
 
 import processor.Clock;
 import processor.Processor;
+import processor.pipeline.IF_EnableLatchType;
 
 public class Simulator {
 		
@@ -85,7 +86,6 @@ public class Simulator {
 	
 	public static void simulate()
 	{
-		int no_of_instructions = 0;
 		while(simulationComplete == false)
 		{
 			// System.out.println("simulator");
@@ -95,25 +95,13 @@ public class Simulator {
 			processor.getOFUnit().performOF();
 			processor.getIFUnit().performIF();
 			Clock.incrementClock();
-			// processor.getIFUnit().performIF();
-			// Clock.incrementClock();
-			// processor.getOFUnit().performOF();
-			// Clock.incrementClock();
-			// processor.getEXUnit().performEX();
-			// Clock.incrementClock();
-			// processor.getMAUnit().performMA();
-			// Clock.incrementClock();
-			// processor.getRWUnit().performRW();
-			// Clock.incrementClock();
-			// no_of_instructions++;
 		}
 		// TODO
 		// set statistics
 		Statistics statistics = new Statistics();
-		statistics.setNumberOfInstructions(no_of_instructions);
+		statistics.setNumberOfInstructions(processor.getIfEnableLatch().getNumberOfInstructions());
 		statistics.setNumberOfCycles((int) Clock.getCurrentTime());
-		
-
+		// statistics.printStatistics();
 	}
 	
 	public static void setSimulationComplete(boolean value)

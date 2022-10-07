@@ -221,9 +221,9 @@ public class OperandFetch {
 	  	}
 		for(int i = 0 ; i < 32; i++){
 			int cur = OF_EX_Latch.getRegisterUsed(i);
-			System.out.println(
-				i + " " + cur
-			);
+			// System.out.println(
+			// 	i + " " + cur
+			// );
 			if(cur > 0){
 				OF_EX_Latch.setRegisterUsed(i, cur-1);
 			}

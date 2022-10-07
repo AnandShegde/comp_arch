@@ -94,4 +94,8 @@ public class Processor {
 		return RWUnit;
 	}
 
+	public IF_EnableLatchType getIfEnableLatch(){
+		return IF_EnableLatch;
+	}
+
 }

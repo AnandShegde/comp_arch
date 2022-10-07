@@ -30,6 +30,9 @@ public class InstructionFetch {
 			
 			IF_EnableLatch.setIF_enable(false);
 			IF_OF_Latch.setOF_enable(true);
+			
+			//incementing instructions
+			IF_EnableLatch.incrementIns();
 		}
 	}
 
