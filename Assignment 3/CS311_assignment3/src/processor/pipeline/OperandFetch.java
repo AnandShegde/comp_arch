@@ -208,7 +208,7 @@ public class OperandFetch {
 				IF_OF_Latch.setOF_enable(false);
 				OF_EX_Latch.setEX_enable(true);
 			}
-			for(int i = 0 ; i < 16; i++){
+			for(int i = 0 ; i < 32; i++){
 				int cur = OF_EX_Latch.getRegisterUsed(i);
 				System.out.println(
 					i + " " + cur

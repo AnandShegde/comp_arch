@@ -22,7 +22,7 @@ public class OF_EX_LatchType {
 	public OF_EX_LatchType()
 	{
 		EX_enable = false;
-		for(int i = 0 ; i < 16; i++){
+		for(int i = 0 ; i < 32; i++){
 			registersUsed.add(0);
 		}
 	}
