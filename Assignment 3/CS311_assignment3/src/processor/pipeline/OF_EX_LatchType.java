@@ -16,12 +16,15 @@ public class OF_EX_LatchType {
 	
 	int destination;
 
+	boolean isBranchTaken;
+
 	// HashMap<Integer, Integer> registersUsed = new HashMap<>();
 	List<Integer> registersUsed = new ArrayList<Integer>();   
 
 	public OF_EX_LatchType()
 	{
 		EX_enable = false;
+		isBranchTaken = false;
 		for(int i = 0 ; i < 32; i++){
 			registersUsed.add(0);
 		}
@@ -102,5 +105,13 @@ public class OF_EX_LatchType {
 		registersUsed.set(index, val);
 	}
 
+	//set and get for branch taken
+	public boolean getIsBranchTaken(){
+		return isBranchTaken;
+	}
+
+	public void setIsBranchTaken(boolean val){
+		isBranchTaken = val;
+	}
 
 }

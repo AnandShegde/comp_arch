@@ -22,6 +22,7 @@ public class InstructionFetch {
 		System.out.println("ins fetch");
 		if(IF_EnableLatch.isIF_enable())
 		{
+			System.out.println("inside ins fetch");
 			int currentPC = containingProcessor.getRegisterFile().getProgramCounter();
 			int newInstruction = containingProcessor.getMainMemory().getWord(currentPC);
 			IF_OF_Latch.setInstruction(newInstruction);

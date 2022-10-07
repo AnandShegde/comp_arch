@@ -73,8 +73,14 @@ public class OperandFetch {
 	public void performOF()
 	{
 		System.out.println("operand fetch");
-		if(IF_OF_Latch.isOF_enable())
+		if(OF_EX_Latch.getIsBranchTaken()){
+			System.out.println("branck taken");
+			OF_EX_Latch.setIsBranchTaken(false);
+			IF_OF_Latch.setOF_enable(false);
+		}
+		else if(IF_OF_Latch.isOF_enable())
 		{
+			System.out.println("branck not taken");
 			//TODO
 
 			int pc = containingProcessor.getRegisterFile().getProgramCounter();
@@ -84,7 +90,6 @@ public class OperandFetch {
 			// String ins = binaryofint((int)Long.parseLong("10110000000001100000000000000011",2), 32);
 
 			
-
 			System.out.println("pc= "+pc+" Ins = "+ ins);
 			//Control unit
 			String optcode = ins.substring(0, 5);
@@ -185,12 +190,18 @@ public class OperandFetch {
 					}
 				}
 			}
+			else if(insType.get(optcode) == 21){
+				if(OF_EX_Latch.getRegisterUsed(rs1) > 0 || OF_EX_Latch.getRegisterUsed(dest) > 0){
+					isDependancy = true;
+					OF_EX_Latch.setEX_enable(false);
+					IF_EnableLatch.setIF_enable(false);
+				}
+			}
 			if(!isDependancy){
-				System.out.println("\n\nELSE PARt\n\n\n");
 				IF_EnableLatch.setIF_enable(true);
 				if(insType.get(optcode) == 3 || (insType.get(optcode) == 2 && !optcode.equals("10111"))){
 					// System.out.println("rd "+rd);
-					OF_EX_Latch.setRegisterUsed(dest, 3);
+					OF_EX_Latch.setRegisterUsed(dest, 4);
 				}
 				OF_EX_Latch.setOp1(op1);
 				OF_EX_Latch.setOp2(op2);
@@ -198,26 +209,26 @@ public class OperandFetch {
 				OF_EX_Latch.setDestination(dest);
 				
 
-				//end simulation if end
-				
-
-				// System.out.println("imm17" + immediate17);
-				// System.out.println("offset" + offset);
-				// System.out.println("bt"+branchTarget);
-				// System.out.println("op1 " + op1 + " op2 " + op2 + " rd " +rd);
 				IF_OF_Latch.setOF_enable(false);
 				OF_EX_Latch.setEX_enable(true);
-			}
-			for(int i = 0 ; i < 32; i++){
-				int cur = OF_EX_Latch.getRegisterUsed(i);
-				System.out.println(
-					i + " " + cur
-				);
-				if(cur > 0){
-					OF_EX_Latch.setRegisterUsed(i, cur-1);
+
+				//end statement
+				if(insType.get(optcode) == 0){
+					containingProcessor.getRegisterFile().setProgramCounter(pc-1);
 				}
 			}
-		}
-	}
+			
+	  	}
+		for(int i = 0 ; i < 32; i++){
+			int cur = OF_EX_Latch.getRegisterUsed(i);
+			System.out.println(
+				i + " " + cur
+			);
+			if(cur > 0){
+				OF_EX_Latch.setRegisterUsed(i, cur-1);
+			}
 
+	    }
+
+	} 
 }

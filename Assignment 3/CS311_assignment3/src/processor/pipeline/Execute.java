@@ -66,27 +66,27 @@ public class Execute {
 			int aluResult=0;
 			int immediate = OF_EX_Latch.getImmediate();
 			boolean isWriteback = false;
+			boolean isBranchTaken = false;
 
 			System.out.println("rs1 ="+rs1+" rs2="+rs2+" ");;
 			System.out.println("rdval "+rdval+" dest "+ destination + " imm "+immediate);
 			System.out.println("bt "+branchTarget);
-			
 			// beg, bne, blt, bgt
 			if(insType.get(optCode) == 21){
-				int pc = containingProcessor.getRegisterFile().getProgramCounter();
+				
 				switch(optCode){	
 
 					//beq
 					case "11001":
 					if(rs1 == rdval){
-						pc = branchTarget;
+						isBranchTaken = true;
 					}
 					break;
 
 					//bne
 					case "11010":
 					if(rs1 != rdval){
-						pc = branchTarget;
+						isBranchTaken = true;
 					}
 					break;
 
@@ -94,18 +94,17 @@ public class Execute {
 					case "11011":
 						if(rs1<rdval)
 						{
-						pc = branchTarget;
+							isBranchTaken = true;
 						} 
 						break;
 					// bgt
 					case "11100":
 						if(rs1>rdval){
-							pc = branchTarget;
+							isBranchTaken = true;
 						}
 					break;
 							
 				}
-				containingProcessor.getRegisterFile().setProgramCounter(pc);
 			}
 			
 			
@@ -244,8 +243,7 @@ public class Execute {
 
 			// jmp / jump
 			else if(insType.get(optCode) == 1){
-				int pc = branchTarget;
-				containingProcessor.getRegisterFile().setProgramCounter(pc);
+				isBranchTaken = true;
 			}
 
 			// set all the things in the next latch.
@@ -259,6 +257,12 @@ public class Execute {
 
 			EX_MA_Latch.setMA_enable(true);
 			OF_EX_Latch.setEX_enable(false);
+
+			//setiing pc if branch taken
+			if(isBranchTaken){
+				containingProcessor.getRegisterFile().setProgramCounter(branchTarget);
+				OF_EX_Latch.setIsBranchTaken(true);
+			}
 		// if OF_EX enabled
 		}
 
