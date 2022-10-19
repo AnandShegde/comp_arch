@@ -42,6 +42,8 @@ public class InstructionFetch implements Element{
 				);
 
 				IF_EnableLatch.setIFBusy(true);
+				// int currentPC = containingProcessor.getRegisterFile().getProgramCounter();
+				containingProcessor.getRegisterFile().setProgramCounter(currentPC+1);
 			
 			}
 		}
@@ -60,15 +62,15 @@ public class InstructionFetch implements Element{
 			MemoryResponseEvent event = (MemoryResponseEvent)e;
 			IF_OF_Latch.setInstruction(event.getValue());
 
-			int currentPC = containingProcessor.getRegisterFile().getProgramCounter();
-			containingProcessor.getRegisterFile().setProgramCounter(currentPC+1);
+			// int currentPC = containingProcessor.getRegisterFile().getProgramCounter();
+			// containingProcessor.getRegisterFile().setProgramCounter(currentPC+1);
 
 			IF_OF_Latch.setOF_enable(true);
 			IF_EnableLatch.setIFBusy(false);
 
 			//lets see bro
-			IF_EnableLatch.setIF_enable(false);
-			IF_OF_Latch.setResponse(true);
+			// IF_EnableLatch.setIF_enable(false);
+			// IF_OF_Latch.setResponse(true);
 
 			// // MemoryResponseEvent event = MemoryResponseEvent(e.getEventTime(),)
 			// // event.getAddressToReadFrom();

@@ -28,7 +28,7 @@ public class RegisterWrite {
 
 				//PC should be set to end+1 th statement
 				int pc = containingProcessor.getRegisterFile().getProgramCounter();
-				containingProcessor.getRegisterFile().setProgramCounter(pc+1);
+				// containingProcessor.getRegisterFile().setProgramCounter(pc+1);
 				Simulator.setSimulationComplete(true);
 			}
 
@@ -52,6 +52,9 @@ public class RegisterWrite {
 			}
 
 			System.out.println(containingProcessor.getRegisterFile().getContentsAsString());
+
+			//success
+			MA_RW_Latch.setDestination(32);
 			
 			MA_RW_Latch.setRW_enable(false);
 			IF_EnableLatch.setIF_enable(true);

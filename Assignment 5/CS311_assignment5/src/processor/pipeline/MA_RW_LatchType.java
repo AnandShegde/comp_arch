@@ -12,6 +12,9 @@ public class MA_RW_LatchType {
 	public MA_RW_LatchType()
 	{
 		RW_enable = false;
+		//initial state
+		destination = 32;
+		optCode = "00000";
 	}
 
 	public boolean isRW_enable() {

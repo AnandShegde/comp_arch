@@ -25,7 +25,13 @@ public class OF_EX_LatchType {
 	{
 		EX_enable = false;
 		isBranchTaken = false;
-		for(int i = 0 ; i < 32; i++){
+
+		//initial state
+		destination = 32;
+		optCode = "00000";
+
+		//33rd is for indicating latch data is null
+		for(int i = 0 ; i < 33; i++){
 			registersUsed.add(0);
 		}
 	}

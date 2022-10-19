@@ -258,6 +258,10 @@ public class Execute {
 			EX_MA_Latch.setMA_enable(true);
 			OF_EX_Latch.setEX_enable(false);
 
+			//Success
+			//Erasing latch data
+			OF_EX_Latch.setDestination(32);
+
 			//setiing pc if branch taken
 			if(isBranchTaken){
 				containingProcessor.getRegisterFile().setProgramCounter(branchTarget);

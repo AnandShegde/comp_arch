@@ -12,6 +12,9 @@ public class EX_MA_LatchType {
 	public EX_MA_LatchType()
 	{
 		MA_enable = false;
+		//initial state
+		destination = 32;
+		optCode = "00000";
 	}
 
 	public boolean isMA_enable() {

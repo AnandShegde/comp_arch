@@ -43,6 +43,9 @@ public class MemoryAccess {
 				containingProcessor.getMainMemory().setWord(memLoc, rs1);
 			}
 
+			//succes
+			EX_MA_Latch.setDestination(32);
+
 			MA_RW_Latch.setAluResult(aluResult);
 			MA_RW_Latch.setLoadResult(loadResult);
 			MA_RW_Latch.setWriteBack(isWriteback);

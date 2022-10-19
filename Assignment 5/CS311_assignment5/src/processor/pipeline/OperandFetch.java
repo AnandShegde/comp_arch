@@ -13,6 +13,8 @@ public class OperandFetch {
 	IF_OF_LatchType IF_OF_Latch;
 	OF_EX_LatchType OF_EX_Latch;
 	IF_EnableLatchType IF_EnableLatch;
+	EX_MA_LatchType EX_MA_Latch;
+	MA_RW_LatchType MA_RW_Latch;
 
 	public static Map<String,Integer> insType = new HashMap<String, Integer>(){{
 		put("00000",3);
@@ -62,12 +64,30 @@ public class OperandFetch {
 	
 
 	
-	public OperandFetch(Processor containingProcessor, IF_OF_LatchType iF_OF_Latch, OF_EX_LatchType oF_EX_Latch, IF_EnableLatchType iF_EnableLatch)
+	public OperandFetch(Processor containingProcessor, IF_OF_LatchType iF_OF_Latch, OF_EX_LatchType oF_EX_Latch, IF_EnableLatchType iF_EnableLatch, EX_MA_LatchType eX_MA_Latch , MA_RW_LatchType mA_RW_Latch)
 	{
 		this.containingProcessor = containingProcessor;
 		this.IF_OF_Latch = iF_OF_Latch;
 		this.OF_EX_Latch = oF_EX_Latch;
 		this.IF_EnableLatch = iF_EnableLatch;
+		this.EX_MA_Latch = eX_MA_Latch;
+		this.MA_RW_Latch = mA_RW_Latch;
+
+	}
+
+	void checkDataHazards(String optcode, int dest){
+		System.out.println("check data hazards");
+		System.out.println("optcode dest "+optcode+" "+dest);
+		if(insType.get(optcode) == 3 || (insType.get(optcode) == 2 && !optcode.equals("10111"))){
+			OF_EX_Latch.setRegisterUsed(dest, 1);
+			
+		}
+	}
+
+	void eraseDataHazards(){
+		for(int i = 0; i < 33; i++){
+			OF_EX_Latch.setRegisterUsed(i, 0);
+		}
 	}
 	
 	public void performOF()
@@ -79,9 +99,17 @@ public class OperandFetch {
 		}
 
 		if(OF_EX_Latch.getIsBranchTaken() && IF_OF_Latch.isOF_enable()){
+			// System.out.println(IF_EnableLatch.getNumberOfInstructions());
+			
 			System.out.println("branck taken");
+			String ins = binaryofint(IF_OF_Latch.getInstruction());
+			
+			// String ins = binaryofint((int)Long.parseLong("10110000000001100000000000000011",2), 32);
+			System.out.println(" Ins = "+ ins);
 			OF_EX_Latch.setIsBranchTaken(false);
 			IF_OF_Latch.setOF_enable(false);
+			IF_EnableLatch.setIF_enable(true);
+
 		}
 		else if(IF_OF_Latch.isOF_enable())
 		{
@@ -173,6 +201,11 @@ public class OperandFetch {
 				rd = containingProcessor.getRegisterFile().getValue(dest);
 			}
 
+			checkDataHazards(OF_EX_Latch.getOptCode(), OF_EX_Latch.getDestination());
+			checkDataHazards(EX_MA_Latch.getOptCode(), EX_MA_Latch.getDestination());
+			checkDataHazards(MA_RW_Latch.getOptCode(), MA_RW_Latch.getDestination());		
+			
+			
 			//Assignment 4
 			boolean isDependancy = false;
 			if(insType.get(optcode) == 3){
@@ -206,11 +239,20 @@ public class OperandFetch {
 				}
 			}
 			if(!isDependancy){
-				IF_EnableLatch.setIF_enable(true);
-				if(insType.get(optcode) == 3 || (insType.get(optcode) == 2 && !optcode.equals("10111"))){
-					// System.out.println("rd "+rd);
-					OF_EX_Latch.setRegisterUsed(dest, 4);
+				if(insType.get(optcode) == 21){
+					System.out.println("BGT BGT BGT BGT BGT Op1 = "+ op1);
+					System.out.println("BGT BGT BGT BGT BGT dest = "+ rd);
 				}
+				IF_EnableLatch.setIF_enable(true);
+				// if(insType.get(optcode) == 3 || (insType.get(optcode) == 2 && !optcode.equals("10111"))){
+				// 	// System.out.println("rd "+rd);
+				// 	// OF_EX_Latch.setRegisterUsed(dest, 4);
+				// 	int cur_no_reg = OF_EX_Latch.getRegisterUsed(dest);
+				// 	OF_EX_Latch.setRegisterUsed(dest, cur_no_reg+1);
+					
+				// }
+				//Erase vector if there are no deps
+				eraseDataHazards();
 				OF_EX_Latch.setOp1(op1);
 				OF_EX_Latch.setOp2(op2);
 				OF_EX_Latch.setRd(rd);
@@ -223,21 +265,11 @@ public class OperandFetch {
 
 				//end statement
 				if(insType.get(optcode) == 0){
-					containingProcessor.getRegisterFile().setProgramCounter(pc-1);
+					System.out.println("Set if busy : end");
+					// containingProcessor.getRegisterFile().setProgramCounter(pc-1);
+					IF_EnableLatch.setIFBusy(true);
 				}
 			}
-			
 	  	}
-		for(int i = 0 ; i < 32; i++){
-			int cur = OF_EX_Latch.getRegisterUsed(i);
-			// System.out.println(
-			// 	i + " " + cur
-			// );
-			if(cur > 0){
-				OF_EX_Latch.setRegisterUsed(i, cur-1);
-			}
-
-	    }
-
 	} 
 }
