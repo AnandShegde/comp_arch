@@ -108,6 +108,7 @@ public class Simulator {
 		Statistics statistics = new Statistics();
 		statistics.setNumberOfInstructions(processor.getIfEnableLatch().getNumberOfInstructions());
 		statistics.setNumberOfCycles((int) Clock.getCurrentTime());
+		statistics.setThroughput();
 		// statistics.printStatistics();
 	}
 	

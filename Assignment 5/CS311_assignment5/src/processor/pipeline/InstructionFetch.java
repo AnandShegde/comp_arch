@@ -81,7 +81,7 @@ public class InstructionFetch implements Element{
 			// IF_OF_Latch.setOF_enable(true);
 			
 			//incementing instructions
-			IF_EnableLatch.incrementIns();
+			// IF_EnableLatch.incrementIns();
 
 		}
 
