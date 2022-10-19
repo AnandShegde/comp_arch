@@ -4,6 +4,7 @@ import generic.Element;
 import generic.Event;
 import generic.MemoryReadEvent;
 import generic.MemoryResponseEvent;
+import generic.MemoryWriteEvent;
 import generic.Simulator;
 import generic.Event.EventType;
 import processor.Clock;
@@ -52,6 +53,20 @@ public class MainMemory implements Element{
 					event.getRequestingElement(),
 					getWord(event.getAddressToReadFrom()))
 			);
+		}
+		else if(e.getEventType()== EventType.MemoryWrite){
+
+			MemoryWriteEvent event  = (MemoryWriteEvent) e;
+			setWord(event.getAddressToWriteTo(), event.getValue());
+			Simulator.getEventQueue().addEvent(
+				new MemoryResponseEvent(
+					Clock.getCurrentTime(),
+					this,
+					event.getRequestingElement(),
+					0
+				)
+			);
+
 		}		
 	}
 }

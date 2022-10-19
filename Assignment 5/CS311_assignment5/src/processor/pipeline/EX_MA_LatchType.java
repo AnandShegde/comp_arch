@@ -3,6 +3,7 @@ package processor.pipeline;
 public class EX_MA_LatchType {
 	
 	boolean MA_enable;
+	boolean MA_busy;
 	int aluResult;
 	int destination;
 	boolean isWriteback;
@@ -12,6 +13,7 @@ public class EX_MA_LatchType {
 	public EX_MA_LatchType()
 	{
 		MA_enable = false;
+		MA_busy = false;
 		//initial state
 		destination = 32;
 		optCode = "00000";
@@ -63,6 +65,16 @@ public class EX_MA_LatchType {
 	}
 	public String getOptCode(){
 		return optCode;
+	}
+
+	//set MA busy
+
+	public void setMABusy(boolean val){
+		MA_busy = val;
+	}
+
+	public boolean IsMABusy(){
+		return MA_busy;
 	}
 
 }

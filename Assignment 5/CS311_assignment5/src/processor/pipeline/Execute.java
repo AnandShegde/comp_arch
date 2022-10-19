@@ -1,11 +1,20 @@
 package processor.pipeline;
 
+import processor.Clock;
 import processor.Processor;
 import java.util.HashMap;
 import java.util.Map;
+
+import configuration.Configuration;
+import generic.Element;
+import generic.Event;
+import generic.ExecutionCompleteEvent;
+import generic.Simulator;
+import generic.Event.EventType;
+
 import java.util.Arrays;
 
-public class Execute {
+public class Execute implements Element{
 	Processor containingProcessor;
 	OF_EX_LatchType OF_EX_Latch;
 	EX_MA_LatchType EX_MA_Latch;
@@ -56,197 +65,250 @@ public class Execute {
 	{
 		System.out.println("We are in EX");
 		if(OF_EX_Latch.isEX_enable()){
+			
+			System.out.println("EX is enabled");
+			if(OF_EX_Latch.isEXBusy()){
+				return;
+			}
+			else{
 
-			String optCode = OF_EX_Latch.getOptCode();
-			int branchTarget = OF_EX_Latch.getBranchTarget();
-			int rs1 = OF_EX_Latch.getOp1();
-			int rs2 = OF_EX_Latch.getOp2();
-			int rdval = OF_EX_Latch.getRd();
-			int destination = OF_EX_Latch.getDestination();
-			int aluResult=0;
-			int immediate = OF_EX_Latch.getImmediate();
-			boolean isWriteback = false;
-			boolean isBranchTaken = false;
+				System.out.println("Ex is not busy");
 
-			System.out.println("rs1 ="+rs1+" rs2="+rs2+" ");;
-			System.out.println("rdval "+rdval+" dest "+ destination + " imm "+immediate);
-			System.out.println("bt "+branchTarget);
-			// beg, bne, blt, bgt
-			if(insType.get(optCode) == 21){
-				
-				switch(optCode){	
+				String optCode = OF_EX_Latch.getOptCode();
+				int branchTarget = OF_EX_Latch.getBranchTarget();
+				int rs1 = OF_EX_Latch.getOp1();
+				int rs2 = OF_EX_Latch.getOp2();
+				int rdval = OF_EX_Latch.getRd();
+				int destination = OF_EX_Latch.getDestination();
+				int aluResult=0;
+				int immediate = OF_EX_Latch.getImmediate();
+				boolean isWriteback = false;
+				boolean isBranchTaken = false;
+				int latency = Configuration.ALU_latency;
 
-					//beq
-					case "11001":
-					if(rs1 == rdval){
-						isBranchTaken = true;
-					}
-					break;
+				System.out.println("rs1 ="+rs1+" rs2="+rs2+" ");;
+				System.out.println("rdval "+rdval+" dest "+ destination + " imm "+immediate);
+				System.out.println("bt "+branchTarget);
+				// beg, bne, blt, bgt
+				if(insType.get(optCode) == 21){
+					
+					switch(optCode){	
 
-					//bne
-					case "11010":
-					if(rs1 != rdval){
-						isBranchTaken = true;
-					}
-					break;
-
-					// blt
-					case "11011":
-						if(rs1<rdval)
-						{
-							isBranchTaken = true;
-						} 
-						break;
-					// bgt
-					case "11100":
-						if(rs1>rdval){
+						//beq
+						case "11001":
+						if(rs1 == rdval){
 							isBranchTaken = true;
 						}
-					break;
-							
+						break;
+
+						//bne
+						case "11010":
+						if(rs1 != rdval){
+							isBranchTaken = true;
+						}
+						break;
+
+						// blt
+						case "11011":
+							if(rs1<rdval)
+							{
+								isBranchTaken = true;
+							} 
+							break;
+						// bgt
+						case "11100":
+							if(rs1>rdval){
+								isBranchTaken = true;
+							}
+						break;
+								
+					}
 				}
-			}
-			
-			
-			
-			else if(insType.get(optCode) == 2){
-				isWriteback = true;
-				switch(optCode){
-					// addi
-					case "00001":
-						aluResult = rs1+immediate;
-					
-					break;
-					// subi
-					case "00011":
-						aluResult = rs1- immediate;
-					
-					break;
-					// muli
-					case "00101":
-						aluResult = rs1*immediate;
-					break;
-					// divi
-					case "00111":
-						aluResult = rs1/immediate;
-						containingProcessor.getRegisterFile().setValue(31, rs1%immediate);
-					break;
-					// andi
-					case "01001":
-						aluResult = rs1 & immediate;
-					break;
-					// ori
-					case "01011":
-						aluResult = rs1 | immediate;
-					break;
-					// xori
-					case "01101":
-						aluResult = rs1 ^ immediate;
-					break;
-					// slt
-					case "01111":
-						aluResult = (rs1<immediate) ? 1:0;
-					break;
-					// sll
-					case "10001":
-						aluResult = rs1<<immediate;
-					break;
-					// rsli
-					case "10011":
-						aluResult = rs1>>> immediate;
-					
-					break;
-					// rsai
-					case "10101":
-						aluResult = rs1>> immediate;
-					break;
-
-					// load
-					case "10110":
-						aluResult = rs1 + immediate;
-					break;
-
-					// store
-					case "10111":
-						aluResult = rdval + immediate;
-						isWriteback = false;
-					break;
-				}
-
 				
-			}
-
-			else if(insType.get(optCode) == 3){
-					
-				isWriteback = true;
-				switch(optCode){
-
-					//add
-					case "00000":
-					aluResult = rs1 + rs2;
-					break;
-					
-					//sub
-					case "00010":
-					aluResult = rs1 - rs2;
-					break;
-
-					//mul
-					case "00100":
-					aluResult = rs1*rs2;
-					break;
+				
+				
+				else if(insType.get(optCode) == 2){
+					isWriteback = true;
+					switch(optCode){
+						// addi
+						case "00001":
+							aluResult = rs1+immediate;
 						
-					//div
-					case "00110":
-					aluResult = (int)rs1/rs2;
-					
-					//x31 write remainder here 
-					containingProcessor.getRegisterFile().setValue(31, rs1%rs2);
-					break;
-					
-					//and
-					case "01000":
-					aluResult = rs1 & rs2;
-					break;
+						break;
+						// subi
+						case "00011":
+							aluResult = rs1- immediate;
+						
+						break;
+						// muli
+						case "00101":
+							aluResult = rs1*immediate;
+							latency = Configuration.multiplier_latency;
+						break;
+						// divi
+						case "00111":
+							aluResult = rs1/immediate;
+							containingProcessor.getRegisterFile().setValue(31, rs1%immediate);
+							latency = Configuration.divider_latency;
+						break;
+						// andi
+						case "01001":
+							aluResult = rs1 & immediate;
+						break;
+						// ori
+						case "01011":
+							aluResult = rs1 | immediate;
+						break;
+						// xori
+						case "01101":
+							aluResult = rs1 ^ immediate;
+						break;
+						// slt
+						case "01111":
+							aluResult = (rs1<immediate) ? 1:0;
+						break;
+						// sll
+						case "10001":
+							aluResult = rs1<<immediate;
+						break;
+						// rsli
+						case "10011":
+							aluResult = rs1>>> immediate;
+						
+						break;
+						// rsai
+						case "10101":
+							aluResult = rs1>> immediate;
+						break;
 
-					//or
-					case "01010":
-					aluResult = rs1 | rs2;
-					break;
-					
-					//xor
-					case "01100":
-					aluResult = rs1^rs2;
-					break;
-					
-					//slt
-					case "01110":
-					aluResult = rs1 < rs2 ? 1 : 0;
-					break;
-					
-					//sll
-					case "10000":
-					aluResult = rs1 << rs2;
-					break;
+						// load
+						case "10110":
+							aluResult = rs1 + immediate;
+						break;
 
-					//srl
-					case "10010":
-					aluResult = rs1 >>> rs2;
-					break;
+						// store
+						case "10111":
+							aluResult = rdval + immediate;
+							isWriteback = false;
+						break;
+					}
 
-					//sra
-					case "10100":
-					aluResult = rs1 >> rs2;
-					break;
+					
 				}
-			}
 
-			// jmp / jump
-			else if(insType.get(optCode) == 1){
-				isBranchTaken = true;
-			}
+				else if(insType.get(optCode) == 3){
+						
+					isWriteback = true;
+					switch(optCode){
 
+						//add
+						case "00000":
+						aluResult = rs1 + rs2;
+						break;
+						
+						//sub
+						case "00010":
+						aluResult = rs1 - rs2;
+						break;
+
+						//mul
+						case "00100":
+						
+						// set latency
+						latency = Configuration.multiplier_latency;
+						aluResult = rs1*rs2;
+						break;
+							
+						//div
+						case "00110":
+						aluResult = (int)rs1/rs2;
+						
+						//x31 write remainder here 
+						containingProcessor.getRegisterFile().setValue(31, rs1%rs2);
+
+						// set latency
+						latency = Configuration.divider_latency;
+						break;
+						
+						//and
+						case "01000":
+						aluResult = rs1 & rs2;
+						break;
+
+						//or
+						case "01010":
+						aluResult = rs1 | rs2;
+						break;
+						
+						//xor
+						case "01100":
+						aluResult = rs1^rs2;
+						break;
+						
+						//slt
+						case "01110":
+						aluResult = rs1 < rs2 ? 1 : 0;
+						break;
+						
+						//sll
+						case "10000":
+						aluResult = rs1 << rs2;
+						break;
+
+						//srl
+						case "10010":
+						aluResult = rs1 >>> rs2;
+						break;
+
+						//sra
+						case "10100":
+						aluResult = rs1 >> rs2;
+						break;
+					}
+				}
+
+				// jmp / jump
+				else if(insType.get(optCode) == 1){
+					isBranchTaken = true;
+				}
+				
+
+				Simulator.getEventQueue().addEvent(
+					new ExecutionCompleteEvent(Clock.getCurrentTime() + latency, this, this, aluResult, destination, rs1, branchTarget, optCode, isWriteback, isBranchTaken)
+				);
+
+				OF_EX_Latch.setEXBusy(true);
+				
+
+
+			}
+			
 			// set all the things in the next latch.
+			
+		// if OF_EX enabled
+		}
+
+	// performEX
+	}
+
+	
+	@Override
+	public void handleEvent(Event e) {
+		if(EX_MA_Latch.IsMABusy()){
+			e.setEventTime(Clock.getCurrentTime() + 1);
+			Simulator.getEventQueue().addEvent(e);
+		}
+		else if(e.getEventType() == EventType.ExecutionComplete){
+
+			ExecutionCompleteEvent event = (ExecutionCompleteEvent) e;
+			String optCode = event.getOptCode();
+			int aluResult = event.getAluresult();
+			int destination = event.getDestination();
+			boolean isWriteback = event.getIsWriteBack();
+			int rs1 = event.getrs1();
+			int branchTarget = event.getBranchTarget();
+			Boolean isBranchTaken = event.getIsBranchTaken();
+
 			EX_MA_Latch.setOptCode(optCode);
 			EX_MA_Latch.setAluResult(aluResult);
 			EX_MA_Latch.setDestination(destination);
@@ -267,10 +329,10 @@ public class Execute {
 				containingProcessor.getRegisterFile().setProgramCounter(branchTarget);
 				OF_EX_Latch.setIsBranchTaken(true);
 			}
-		// if OF_EX enabled
-		}
 
-	// performEX
+			OF_EX_Latch.setEXBusy(false);
+			
+		}
 	}
 
 }

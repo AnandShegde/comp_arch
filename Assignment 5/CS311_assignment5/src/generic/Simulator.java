@@ -101,6 +101,7 @@ public class Simulator {
 			processor.getOFUnit().performOF();
 			processor.getIFUnit().performIF();
 			Clock.incrementClock();
+			System.out.println("\n\n\n\n\n\n");
 		}
 		// TODO
 		// set statistics

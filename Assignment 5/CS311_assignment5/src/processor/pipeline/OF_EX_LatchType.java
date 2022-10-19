@@ -8,6 +8,8 @@ import java.util.Vector;
 public class OF_EX_LatchType {
 	
 	boolean EX_enable;
+	// boolean OF_busy;
+	boolean EX_busy;
 	int branchTarget;
 	String optCode;
 	int immediate;
@@ -25,6 +27,8 @@ public class OF_EX_LatchType {
 	{
 		EX_enable = false;
 		isBranchTaken = false;
+		// OF_busy = false;
+		EX_busy = false;
 
 		//initial state
 		destination = 32;
@@ -119,5 +123,23 @@ public class OF_EX_LatchType {
 	public void setIsBranchTaken(boolean val){
 		isBranchTaken = val;
 	}
+
+	//busy
+	public void setEXBusy(boolean val){
+		EX_busy = val;
+	}
+
+	public boolean isEXBusy(){
+		return EX_busy;
+	}
+
+	// public void setOFBusy(boolean val){
+	// 	OF_busy = val;
+	// }
+
+	// public boolean IsOFBusy(){
+	// 	return OF_busy;
+	// }
+
 
 }

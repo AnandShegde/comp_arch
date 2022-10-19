@@ -7,6 +7,13 @@ Process events
 operand fetch
 ins fetch
 ready to send request
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
@@ -17,6 +24,13 @@ top element's time
 4
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
@@ -27,6 +41,13 @@ top element's time
 4
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
@@ -37,6 +58,13 @@ top element's time
 4
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
@@ -65,33 +93,389 @@ check data hazards
 optcode dest 00000 32
 check data hazards
 optcode dest 00000 32
+OF rs1 rs2 rd dest 0 0 0 3
+reg used
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+NO hazard in OF
 ins fetch
 ready to send request
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
+EX is enabled
+Ex is not busy
 rs1 =0 rs2=0 
 rdval 0 dest 3 imm 0
 bt 1
-alu 0
 Process events
-1
+2
 5
+top element's time
+6
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+6
+top element's time
+6
+queue while loop
+ExecutionComplete
+6
+6
+alu 0
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+REq mem read in MA
+We are in EX
+Process events
+2
+7
 top element's time
 8
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
-we are in MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+8
+top element's time
+8
+queue while loop
+MemoryRead
+8
+8
+queue while loop
+MemoryResponse
+8
+8
+IF he
+If he mem resp
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 3
+check data hazards
+optcode dest 00000 32
+OF rs1 rs2 rd dest 3 0 0 3
+reg used
+0 0
+1 0
+2 0
+3 1
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
 We are in EX
 Process events
 1
-6
+9
 top element's time
-8
+11
 operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 3
+check data hazards
+optcode dest 00000 32
+OF rs1 rs2 rd dest 3 0 0 3
+reg used
+0 0
+1 0
+2 0
+3 1
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
 ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+1
+10
+top element's time
+11
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 3
+check data hazards
+optcode dest 00000 32
+OF rs1 rs2 rd dest 3 0 0 3
+reg used
+0 0
+1 0
+2 0
+3 1
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+1
+11
+top element's time
+11
+queue while loop
+MemoryRead
+11
+11
+queue while loop
+MemoryResponse
+11
+11
+handle event MA
+MemoryResponse
+MEm response
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 32
+check data hazards
+optcode dest 10110 3
+OF rs1 rs2 rd dest 3 0 0 3
+reg used
+0 0
+1 0
+2 0
+3 1
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+ins fetch
+
+
+
+
+
+
+
 we are REG
 we are in REG
 
@@ -136,79 +520,406 @@ x31	: 0
 we are MEM
 We are in EX
 Process events
-1
-7
-top element's time
-8
+0
+12
 operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs111 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 32
+check data hazards
+optcode dest 10110 32
+OF rs1 rs2 rd dest 3 0 11 3
+reg used
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+NO hazard in OF
 ins fetch
+ready to send request
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
+EX is enabled
+Ex is not busy
+rs1 =11 rs2=0 
+rdval 11 dest 3 imm 2
+bt 4
 Process events
-1
-8
+2
+13
 top element's time
-8
+16
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+14
+top element's time
+16
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+15
+top element's time
+16
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+16
+top element's time
+16
 queue while loop
 MemoryRead
-8
-8
+16
+16
 queue while loop
 MemoryResponse
-8
-8
+16
+16
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+17
+top element's time
+17
+queue while loop
+MemoryResponse
+17
+17
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+18
+top element's time
+18
+queue while loop
+MemoryResponse
+18
+18
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+19
+top element's time
+19
+queue while loop
+MemoryResponse
+19
+19
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+20
+top element's time
+20
+queue while loop
+MemoryResponse
+20
+20
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+21
+top element's time
+21
+queue while loop
+MemoryResponse
+21
+21
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+22
+top element's time
+22
+queue while loop
+MemoryResponse
+22
+22
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+23
+top element's time
+23
+queue while loop
+ExecutionComplete
+23
+23
+alu 5
+queue while loop
+MemoryResponse
+23
+23
+IF he
+IF he busy
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+We are in EX
+Process events
+1
+24
+top element's time
+24
+queue while loop
+MemoryResponse
+24
+24
 IF he
 If he mem resp
 operand fetch
 branck not taken
-pc= 3 Ins = 00010001000010000100000000000000
-op1 rs10 4
-r3 tye op2 rs2 0 dest 4 rd0 rs2 4
+pc= 4 Ins = 11001000001111100000000000000100
+op1 rs10 0
 check data hazards
-optcode dest 00010 32
+optcode dest 11001 32
 check data hazards
-optcode dest 10110 32
+optcode dest 00111 32
 check data hazards
-optcode dest 10110 32
+optcode dest 00111 3
+OF rs1 rs2 rd dest 0 0 1 31
+reg used
+0 0
+1 0
+2 0
+3 1
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+NO hazard in OF
+BGT BGT BGT BGT BGT Op1 = 0
+BGT BGT BGT BGT BGT dest = 1
 ins fetch
 ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 0 dest 4 imm 16384
-bt 16386
-alu 0
-Process events
-1
-9
-top element's time
-12
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-10
-top element's time
-12
-operand fetch
-ins fetch
+
+
+
+
+
+
+
 we are REG
 we are in REG
 
 Register File Contents:
 
-PC	: 4
+PC	: 5
 
 x0	: 0
 x1	: 65535
 x2	: 65535
-x3	: 11
+x3	: 5
 x4	: 0
 x5	: 0
 x6	: 0
@@ -236,73 +947,72 @@ x27	: 0
 x28	: 0
 x29	: 0
 x30	: 0
-x31	: 0
+x31	: 1
 
 
 we are MEM
 We are in EX
+EX is enabled
+Ex is not busy
+rs1 =0 rs2=0 
+rdval 1 dest 31 imm 4
+bt 7
 Process events
-1
-11
+2
+25
 top element's time
-12
+26
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
+EX is enabled
 Process events
-1
-12
+2
+26
 top element's time
-12
+26
 queue while loop
-MemoryRead
-12
-12
-queue while loop
-MemoryResponse
-12
-12
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 4 Ins = 00111000110010000000000000000010
-op1 rs111 3
-check data hazards
-optcode dest 00111 32
-check data hazards
-optcode dest 00010 32
-check data hazards
-optcode dest 00010 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =11 rs2=0 
-rdval 0 dest 4 imm 2
-bt 5
-alu 5
-Process events
-1
-13
-top element's time
-16
+ExecutionComplete
+26
+26
+alu 0
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
-we are in MEM
+MA Enabled
+MA not busy
 We are in EX
 Process events
 1
-14
+27
 top element's time
-16
+28
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are in REG
 
@@ -313,8 +1023,8 @@ PC	: 5
 x0	: 0
 x1	: 65535
 x2	: 65535
-x3	: 11
-x4	: 5
+x3	: 5
+x4	: 0
 x5	: 0
 x6	: 0
 x7	: 0
@@ -348,67 +1058,139 @@ we are MEM
 We are in EX
 Process events
 1
-15
+28
 top element's time
-16
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-16
-top element's time
-16
+28
 queue while loop
 MemoryRead
-16
-16
+28
+28
 queue while loop
 MemoryResponse
-16
-16
+28
+28
 IF he
 If he mem resp
 operand fetch
 branck not taken
-pc= 5 Ins = 00010001100011000110000000000000
-op1 rs10 6
-r3 tye op2 rs2 0 dest 6 rd0 rs2 6
+pc= 5 Ins = 00010010100101001010000000000000
+op1 rs10 10
+r3 tye op2 rs2 0 dest 10 rd0 rs2 10
 check data hazards
 optcode dest 00010 32
 check data hazards
-optcode dest 00111 32
+optcode dest 11001 32
 check data hazards
-optcode dest 00111 32
+optcode dest 11001 32
+OF rs1 rs2 rd dest 10 10 0 10
+reg used
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+NO hazard in OF
 ins fetch
 ready to send request
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
+EX is enabled
+Ex is not busy
 rs1 =0 rs2=0 
-rdval 0 dest 6 imm 24576
-bt 24580
-alu 0
+rdval 0 dest 10 imm 40960
+bt 40964
 Process events
-1
-17
+2
+29
 top element's time
-20
+30
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
-we are in MEM
+We are in EX
+EX is enabled
+Process events
+2
+30
+top element's time
+30
+queue while loop
+ExecutionComplete
+30
+30
+alu 0
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
 We are in EX
 Process events
 1
-18
+31
 top element's time
-20
+32
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are in REG
 
@@ -419,8 +1201,8 @@ PC	: 6
 x0	: 0
 x1	: 65535
 x2	: 65535
-x3	: 11
-x4	: 5
+x3	: 5
+x4	: 0
 x5	: 0
 x6	: 0
 x7	: 0
@@ -454,66 +1236,138 @@ we are MEM
 We are in EX
 Process events
 1
-19
+32
 top element's time
-20
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-20
-top element's time
-20
+32
 queue while loop
 MemoryRead
-20
-20
+32
+32
 queue while loop
 MemoryResponse
-20
-20
+32
+32
 IF he
 If he mem resp
 operand fetch
 branck not taken
-pc= 6 Ins = 00001001100011000000000000000010
-op1 rs10 6
+pc= 6 Ins = 00001010100101000000000000000001
+op1 rs10 10
 check data hazards
 optcode dest 00001 32
 check data hazards
 optcode dest 00010 32
 check data hazards
 optcode dest 00010 32
+OF rs1 rs2 rd dest 10 0 0 10
+reg used
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+NO hazard in OF
 ins fetch
 ready to send request
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
+EX is enabled
+Ex is not busy
 rs1 =0 rs2=0 
-rdval 0 dest 6 imm 2
-bt 7
-alu 2
+rdval 0 dest 10 imm 1
+bt 6
 Process events
-1
-21
+2
+33
 top element's time
-24
+34
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
-we are in MEM
+We are in EX
+EX is enabled
+Process events
+2
+34
+top element's time
+34
+queue while loop
+ExecutionComplete
+34
+34
+alu 1
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
 We are in EX
 Process events
 1
-22
+35
 top element's time
-24
+36
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are in REG
 
@@ -524,2718 +1378,11 @@ PC	: 7
 x0	: 0
 x1	: 65535
 x2	: 65535
-x3	: 11
-x4	: 5
+x3	: 5
+x4	: 0
 x5	: 0
-x6	: 2
+x6	: 0
 x7	: 0
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-23
-top element's time
-24
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-24
-top element's time
-24
-queue while loop
-MemoryRead
-24
-24
-queue while loop
-MemoryResponse
-24
-24
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 7 Ins = 11100001100010000000000000000101
-op1 rs12 6
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 00001 32
-BGT BGT BGT BGT BGT Op1 = 2
-BGT BGT BGT BGT BGT dest = 5
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =2 rs2=0 
-rdval 5 dest 4 imm 5
-bt 11
-alu 0
-Process events
-1
-25
-top element's time
-28
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-26
-top element's time
-28
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 8
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 2
-x7	: 0
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-27
-top element's time
-28
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-28
-top element's time
-28
-queue while loop
-MemoryRead
-28
-28
-queue while loop
-MemoryResponse
-28
-28
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 8 Ins = 00110000110011000111000000000000
-op1 rs111 3
-r3 tye op2 rs2 2 dest 7 rd0 rs2 6
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11100 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =11 rs2=2 
-rdval 0 dest 7 imm 28672
-bt 28679
-alu 5
-Process events
-1
-29
-top element's time
-32
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-30
-top element's time
-32
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 9
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 2
-x7	: 5
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-31
-top element's time
-32
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-32
-top element's time
-32
-queue while loop
-MemoryRead
-32
-32
-queue while loop
-MemoryResponse
-32
-32
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 9 Ins = 11001000001111100000000000000110
-op1 rs10 0
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 00110 32
-BGT BGT BGT BGT BGT Op1 = 0
-BGT BGT BGT BGT BGT dest = 1
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 1 dest 31 imm 6
-bt 14
-alu 0
-Process events
-1
-33
-top element's time
-36
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-34
-top element's time
-36
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 10
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 2
-x7	: 5
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-35
-top element's time
-36
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-36
-top element's time
-36
-queue while loop
-MemoryRead
-36
-36
-queue while loop
-MemoryResponse
-36
-36
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 10 Ins = 00001001100011000000000000000001
-op1 rs12 6
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 11001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =2 rs2=0 
-rdval 2 dest 6 imm 1
-bt 10
-alu 3
-Process events
-1
-37
-top element's time
-40
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-38
-top element's time
-40
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 11
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 3
-x7	: 5
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-39
-top element's time
-40
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-40
-top element's time
-40
-queue while loop
-MemoryRead
-40
-40
-queue while loop
-MemoryResponse
-40
-40
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 11 Ins = 11000000001111111111111111111100
-rd 0 offset-4
-op1 rs10 0
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 00001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 1 dest 31 imm -4
-bt 6
-alu 0
-Process events
-1
-41
-top element's time
-44
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-42
-top element's time
-44
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 6
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 3
-x7	: 5
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-43
-top element's time
-44
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-44
-top element's time
-44
-queue while loop
-MemoryRead
-44
-44
-queue while loop
-MemoryResponse
-44
-44
-IF he
-If he mem resp
-operand fetch
-branck taken
- Ins = 00010010100101001010000000000000
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-45
-top element's time
-48
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-46
-top element's time
-48
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-47
-top element's time
-48
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-48
-top element's time
-48
-queue while loop
-MemoryRead
-48
-48
-queue while loop
-MemoryResponse
-48
-48
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 7 Ins = 11100001100010000000000000000101
-op1 rs13 6
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 11000 32
-BGT BGT BGT BGT BGT Op1 = 3
-BGT BGT BGT BGT BGT dest = 5
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =3 rs2=0 
-rdval 5 dest 4 imm 5
-bt 11
-alu 0
-Process events
-1
-49
-top element's time
-52
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-50
-top element's time
-52
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 8
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 3
-x7	: 5
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-51
-top element's time
-52
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-52
-top element's time
-52
-queue while loop
-MemoryRead
-52
-52
-queue while loop
-MemoryResponse
-52
-52
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 8 Ins = 00110000110011000111000000000000
-op1 rs111 3
-r3 tye op2 rs2 3 dest 7 rd5 rs2 6
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11100 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =11 rs2=3 
-rdval 5 dest 7 imm 28672
-bt 28679
-alu 3
-Process events
-1
-53
-top element's time
-56
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-54
-top element's time
-56
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 9
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 3
-x7	: 3
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 2
-
-
-we are MEM
-We are in EX
-Process events
-1
-55
-top element's time
-56
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-56
-top element's time
-56
-queue while loop
-MemoryRead
-56
-56
-queue while loop
-MemoryResponse
-56
-56
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 9 Ins = 11001000001111100000000000000110
-op1 rs10 0
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 00110 32
-BGT BGT BGT BGT BGT Op1 = 0
-BGT BGT BGT BGT BGT dest = 2
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 2 dest 31 imm 6
-bt 14
-alu 0
-Process events
-1
-57
-top element's time
-60
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-58
-top element's time
-60
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 10
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 3
-x7	: 3
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 2
-
-
-we are MEM
-We are in EX
-Process events
-1
-59
-top element's time
-60
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-60
-top element's time
-60
-queue while loop
-MemoryRead
-60
-60
-queue while loop
-MemoryResponse
-60
-60
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 10 Ins = 00001001100011000000000000000001
-op1 rs13 6
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 11001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =3 rs2=0 
-rdval 3 dest 6 imm 1
-bt 10
-alu 4
-Process events
-1
-61
-top element's time
-64
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-62
-top element's time
-64
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 11
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 4
-x7	: 3
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 2
-
-
-we are MEM
-We are in EX
-Process events
-1
-63
-top element's time
-64
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-64
-top element's time
-64
-queue while loop
-MemoryRead
-64
-64
-queue while loop
-MemoryResponse
-64
-64
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 11 Ins = 11000000001111111111111111111100
-rd 0 offset-4
-op1 rs10 0
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 00001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 2 dest 31 imm -4
-bt 6
-alu 0
-Process events
-1
-65
-top element's time
-68
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-66
-top element's time
-68
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 6
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 4
-x7	: 3
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 2
-
-
-we are MEM
-We are in EX
-Process events
-1
-67
-top element's time
-68
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-68
-top element's time
-68
-queue while loop
-MemoryRead
-68
-68
-queue while loop
-MemoryResponse
-68
-68
-IF he
-If he mem resp
-operand fetch
-branck taken
- Ins = 00010010100101001010000000000000
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-69
-top element's time
-72
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-70
-top element's time
-72
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-71
-top element's time
-72
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-72
-top element's time
-72
-queue while loop
-MemoryRead
-72
-72
-queue while loop
-MemoryResponse
-72
-72
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 7 Ins = 11100001100010000000000000000101
-op1 rs14 6
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 11000 32
-BGT BGT BGT BGT BGT Op1 = 4
-BGT BGT BGT BGT BGT dest = 5
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =4 rs2=0 
-rdval 5 dest 4 imm 5
-bt 11
-alu 0
-Process events
-1
-73
-top element's time
-76
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-74
-top element's time
-76
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 8
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 4
-x7	: 3
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 2
-
-
-we are MEM
-We are in EX
-Process events
-1
-75
-top element's time
-76
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-76
-top element's time
-76
-queue while loop
-MemoryRead
-76
-76
-queue while loop
-MemoryResponse
-76
-76
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 8 Ins = 00110000110011000111000000000000
-op1 rs111 3
-r3 tye op2 rs2 4 dest 7 rd3 rs2 6
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11100 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =11 rs2=4 
-rdval 3 dest 7 imm 28672
-bt 28679
-alu 2
-Process events
-1
-77
-top element's time
-80
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-78
-top element's time
-80
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 9
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 4
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 3
-
-
-we are MEM
-We are in EX
-Process events
-1
-79
-top element's time
-80
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-80
-top element's time
-80
-queue while loop
-MemoryRead
-80
-80
-queue while loop
-MemoryResponse
-80
-80
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 9 Ins = 11001000001111100000000000000110
-op1 rs10 0
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 00110 32
-BGT BGT BGT BGT BGT Op1 = 0
-BGT BGT BGT BGT BGT dest = 3
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 3 dest 31 imm 6
-bt 14
-alu 0
-Process events
-1
-81
-top element's time
-84
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-82
-top element's time
-84
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 10
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 4
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 3
-
-
-we are MEM
-We are in EX
-Process events
-1
-83
-top element's time
-84
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-84
-top element's time
-84
-queue while loop
-MemoryRead
-84
-84
-queue while loop
-MemoryResponse
-84
-84
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 10 Ins = 00001001100011000000000000000001
-op1 rs14 6
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 11001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =4 rs2=0 
-rdval 4 dest 6 imm 1
-bt 10
-alu 5
-Process events
-1
-85
-top element's time
-88
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-86
-top element's time
-88
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 11
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 5
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 3
-
-
-we are MEM
-We are in EX
-Process events
-1
-87
-top element's time
-88
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-88
-top element's time
-88
-queue while loop
-MemoryRead
-88
-88
-queue while loop
-MemoryResponse
-88
-88
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 11 Ins = 11000000001111111111111111111100
-rd 0 offset-4
-op1 rs10 0
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 00001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 3 dest 31 imm -4
-bt 6
-alu 0
-Process events
-1
-89
-top element's time
-92
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-90
-top element's time
-92
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 6
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 5
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 3
-
-
-we are MEM
-We are in EX
-Process events
-1
-91
-top element's time
-92
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-92
-top element's time
-92
-queue while loop
-MemoryRead
-92
-92
-queue while loop
-MemoryResponse
-92
-92
-IF he
-If he mem resp
-operand fetch
-branck taken
- Ins = 00010010100101001010000000000000
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-93
-top element's time
-96
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-94
-top element's time
-96
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-95
-top element's time
-96
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-96
-top element's time
-96
-queue while loop
-MemoryRead
-96
-96
-queue while loop
-MemoryResponse
-96
-96
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 7 Ins = 11100001100010000000000000000101
-op1 rs15 6
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 11000 32
-BGT BGT BGT BGT BGT Op1 = 5
-BGT BGT BGT BGT BGT dest = 5
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =5 rs2=0 
-rdval 5 dest 4 imm 5
-bt 11
-alu 0
-Process events
-1
-97
-top element's time
-100
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-98
-top element's time
-100
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 8
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 5
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 3
-
-
-we are MEM
-We are in EX
-Process events
-1
-99
-top element's time
-100
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-100
-top element's time
-100
-queue while loop
-MemoryRead
-100
-100
-queue while loop
-MemoryResponse
-100
-100
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 8 Ins = 00110000110011000111000000000000
-op1 rs111 3
-r3 tye op2 rs2 5 dest 7 rd2 rs2 6
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11100 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =11 rs2=5 
-rdval 2 dest 7 imm 28672
-bt 28679
-alu 2
-Process events
-1
-101
-top element's time
-104
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-102
-top element's time
-104
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 9
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 5
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-103
-top element's time
-104
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-104
-top element's time
-104
-queue while loop
-MemoryRead
-104
-104
-queue while loop
-MemoryResponse
-104
-104
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 9 Ins = 11001000001111100000000000000110
-op1 rs10 0
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 00110 32
-check data hazards
-optcode dest 00110 32
-BGT BGT BGT BGT BGT Op1 = 0
-BGT BGT BGT BGT BGT dest = 1
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 1 dest 31 imm 6
-bt 14
-alu 0
-Process events
-1
-105
-top element's time
-108
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-106
-top element's time
-108
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 10
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 5
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-107
-top element's time
-108
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-108
-top element's time
-108
-queue while loop
-MemoryRead
-108
-108
-queue while loop
-MemoryResponse
-108
-108
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 10 Ins = 00001001100011000000000000000001
-op1 rs15 6
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 11001 32
-check data hazards
-optcode dest 11001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =5 rs2=0 
-rdval 5 dest 6 imm 1
-bt 10
-alu 6
-Process events
-1
-109
-top element's time
-112
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-110
-top element's time
-112
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 11
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 6
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-111
-top element's time
-112
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-112
-top element's time
-112
-queue while loop
-MemoryRead
-112
-112
-queue while loop
-MemoryResponse
-112
-112
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 11 Ins = 11000000001111111111111111111100
-rd 0 offset-4
-op1 rs10 0
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 00001 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 1 dest 31 imm -4
-bt 6
-alu 0
-Process events
-1
-113
-top element's time
-116
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-114
-top element's time
-116
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 6
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 6
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-115
-top element's time
-116
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-116
-top element's time
-116
-queue while loop
-MemoryRead
-116
-116
-queue while loop
-MemoryResponse
-116
-116
-IF he
-If he mem resp
-operand fetch
-branck taken
- Ins = 00010010100101001010000000000000
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-117
-top element's time
-120
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-118
-top element's time
-120
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-119
-top element's time
-120
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-120
-top element's time
-120
-queue while loop
-MemoryRead
-120
-120
-queue while loop
-MemoryResponse
-120
-120
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 7 Ins = 11100001100010000000000000000101
-op1 rs16 6
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11000 32
-check data hazards
-optcode dest 11000 32
-BGT BGT BGT BGT BGT Op1 = 6
-BGT BGT BGT BGT BGT dest = 5
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =6 rs2=0 
-rdval 5 dest 4 imm 5
-bt 11
-alu 0
-Process events
-1
-121
-top element's time
-124
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-122
-top element's time
-124
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 11
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 6
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-123
-top element's time
-124
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-124
-top element's time
-124
-queue while loop
-MemoryRead
-124
-124
-queue while loop
-MemoryResponse
-124
-124
-IF he
-If he mem resp
-operand fetch
-branck taken
- Ins = 00110000110011000111000000000000
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-125
-top element's time
-128
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-126
-top element's time
-128
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-127
-top element's time
-128
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-128
-top element's time
-128
-queue while loop
-MemoryRead
-128
-128
-queue while loop
-MemoryResponse
-128
-128
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 12 Ins = 00010010100101001010000000000000
-op1 rs10 10
-r3 tye op2 rs2 0 dest 10 rd0 rs2 10
-check data hazards
-optcode dest 00010 32
-check data hazards
-optcode dest 11100 32
-check data hazards
-optcode dest 11100 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 0 dest 10 imm 40960
-bt 40971
-alu 0
-Process events
-1
-129
-top element's time
-132
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-130
-top element's time
-132
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 13
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 6
-x7	: 2
-x8	: 0
-x9	: 0
-x10	: 0
-x11	: 0
-x12	: 0
-x13	: 0
-x14	: 0
-x15	: 0
-x16	: 0
-x17	: 0
-x18	: 0
-x19	: 0
-x20	: 0
-x21	: 0
-x22	: 0
-x23	: 0
-x24	: 0
-x25	: 0
-x26	: 0
-x27	: 0
-x28	: 0
-x29	: 0
-x30	: 0
-x31	: 1
-
-
-we are MEM
-We are in EX
-Process events
-1
-131
-top element's time
-132
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-132
-top element's time
-132
-queue while loop
-MemoryRead
-132
-132
-queue while loop
-MemoryResponse
-132
-132
-IF he
-If he mem resp
-operand fetch
-branck not taken
-pc= 13 Ins = 00001010100101000000000000000001
-op1 rs10 10
-check data hazards
-optcode dest 00001 32
-check data hazards
-optcode dest 00010 32
-check data hazards
-optcode dest 00010 32
-ins fetch
-ready to send request
-we are REG
-we are MEM
-We are in EX
-rs1 =0 rs2=0 
-rdval 0 dest 10 imm 1
-bt 13
-alu 1
-Process events
-1
-133
-top element's time
-136
-operand fetch
-ins fetch
-we are REG
-we are MEM
-we are in MEM
-We are in EX
-Process events
-1
-134
-top element's time
-136
-operand fetch
-ins fetch
-we are REG
-we are in REG
-
-Register File Contents:
-
-PC	: 14
-
-x0	: 0
-x1	: 65535
-x2	: 65535
-x3	: 11
-x4	: 5
-x5	: 0
-x6	: 6
-x7	: 2
 x8	: 0
 x9	: 0
 x10	: 1
@@ -3266,32 +1413,22 @@ we are MEM
 We are in EX
 Process events
 1
-135
+36
 top element's time
-136
-operand fetch
-ins fetch
-we are REG
-we are MEM
-We are in EX
-Process events
-1
-136
-top element's time
-136
+36
 queue while loop
 MemoryRead
-136
-136
+36
+36
 queue while loop
 MemoryResponse
-136
-136
+36
+36
 IF he
 If he mem resp
 operand fetch
 branck not taken
-pc= 14 Ins = 11101000000000000000000000000000
+pc= 7 Ins = 11101000000000000000000000000000
 op1 rs10 0
 check data hazards
 optcode dest 11101 32
@@ -3299,44 +1436,128 @@ check data hazards
 optcode dest 00001 32
 check data hazards
 optcode dest 00001 32
+OF rs1 rs2 rd dest 0 0 0 0
+reg used
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+NO hazard in OF
 Set if busy : end
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
 We are in EX
+EX is enabled
+Ex is not busy
 rs1 =0 rs2=0 
 rdval 0 dest 0 imm 0
-bt 13
-alu 0
+bt 6
 Process events
-0
-137
+1
+37
+top element's time
+38
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are MEM
-we are in MEM
+We are in EX
+EX is enabled
+Process events
+1
+38
+top element's time
+38
+queue while loop
+ExecutionComplete
+38
+38
+alu 0
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
 We are in EX
 Process events
 0
-138
+39
 operand fetch
 ins fetch
+
+
+
+
+
+
+
 we are REG
 we are in REG
 
 Register File Contents:
 
-PC	: 14
+PC	: 7
 
 x0	: 0
 x1	: 65535
 x2	: 65535
-x3	: 11
-x4	: 5
+x3	: 5
+x4	: 0
 x5	: 0
-x6	: 6
-x7	: 2
+x6	: 0
+x7	: 0
 x8	: 0
 x9	: 0
 x10	: 1
@@ -3367,22 +1588,29 @@ we are MEM
 We are in EX
 Process events
 0
-139
+40
 operand fetch
 ins fetch
 
+
+
+
+
+
+
+
 Register File Contents:
 
-PC	: 14
+PC	: 7
 
 x0	: 0
 x1	: 65535
 x2	: 65535
-x3	: 11
-x4	: 5
+x3	: 5
+x4	: 0
 x5	: 0
-x6	: 6
-x7	: 2
+x6	: 0
+x7	: 0
 x8	: 0
 x9	: 0
 x10	: 1
@@ -3414,21 +1642,21 @@ Main Memory Contents:
 
 0		: 11
 1		: -1341784064
-2		: 285753344
-3		: 952631298
-4		: 294412288
-5		: 160169986
-6		: -511180795
-7		: 818704384
-8		: -935460858
-9		: 160169985
-10		: -1069547524
-11		: 311730176
-12		: 177471489
-13		: -402653184
-14		: 311730176
-15		: 445906945
-16		: -402653184
+2		: 952500226
+3		: -935460860
+4		: 311730176
+5		: 177471489
+6		: -402653184
+7		: 311730176
+8		: 445906945
+9		: -402653184
+10		: 0
+11		: 0
+12		: 0
+13		: 0
+14		: 0
+15		: 0
+16		: 0
 17		: 0
 18		: 0
 19		: 0
@@ -3565,5 +1793,5 @@ Main Memory Contents:
 150		: 0
 
 
-processor.pipeline.RegisterFile@5fcfe4b2
-Hash of the Processor State = -1414219998
+processor.pipeline.RegisterFile@ea30797
+Hash of the Processor State = -224294686

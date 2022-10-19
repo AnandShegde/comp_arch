@@ -80,7 +80,6 @@ public class OperandFetch {
 		System.out.println("optcode dest "+optcode+" "+dest);
 		if(insType.get(optcode) == 3 || (insType.get(optcode) == 2 && !optcode.equals("10111"))){
 			OF_EX_Latch.setRegisterUsed(dest, 1);
-			
 		}
 	}
 
@@ -94,9 +93,11 @@ public class OperandFetch {
 	{
 		System.out.println("operand fetch");
 
-		if(IF_OF_Latch.isOFBusy()){
+		if(OF_EX_Latch.isEXBusy()){
+			IF_OF_Latch.setOFBusy(true);
 			return;
 		}
+		else IF_OF_Latch.setOFBusy(false);
 
 		if(OF_EX_Latch.getIsBranchTaken() && IF_OF_Latch.isOF_enable()){
 			// System.out.println(IF_EnableLatch.getNumberOfInstructions());
@@ -170,7 +171,7 @@ public class OperandFetch {
 			//set op2
 			int rs2 = 0;
 			int op2;
-			int rd;
+			int rd; 
 
 			// R3 type
 			if(insType.get(optcode) == 3){
@@ -201,11 +202,17 @@ public class OperandFetch {
 				rd = containingProcessor.getRegisterFile().getValue(dest);
 			}
 
+			eraseDataHazards();
 			checkDataHazards(OF_EX_Latch.getOptCode(), OF_EX_Latch.getDestination());
 			checkDataHazards(EX_MA_Latch.getOptCode(), EX_MA_Latch.getDestination());
 			checkDataHazards(MA_RW_Latch.getOptCode(), MA_RW_Latch.getDestination());		
 			
-			
+			System.out.println("OF rs1 rs2 rd dest "+rs1+" "+rs2+" "+rd+" "+dest);
+
+			System.out.println("reg used");
+			for(int i = 0 ; i < 33; i++){
+				System.out.println(i + " "+OF_EX_Latch.getRegisterUsed(i));
+			}
 			//Assignment 4
 			boolean isDependancy = false;
 			if(insType.get(optcode) == 3){
@@ -239,6 +246,7 @@ public class OperandFetch {
 				}
 			}
 			if(!isDependancy){
+				System.out.println("NO hazard in OF");
 				if(insType.get(optcode) == 21){
 					System.out.println("BGT BGT BGT BGT BGT Op1 = "+ op1);
 					System.out.println("BGT BGT BGT BGT BGT dest = "+ rd);
