@@ -21,9 +21,24 @@ public class EventQueue {
 
 	public void processEvents()
 	{
+		System.out.println("Process events");
+		System.out.println(queue.size());
+		System.out.println(Clock.getCurrentTime());
+		if(queue.isEmpty() == false ){
+			System.out.println("top element's time");
+			System.out.println(queue.peek().getEventTime());
+			
+		}
+		
+
 		while(queue.isEmpty() == false && queue.peek().getEventTime() <= Clock.getCurrentTime())
 		{
+			System.out.println("queue while loop");
+			
 			Event event = queue.poll();
+			System.out.println(event.getEventType());
+			System.out.println(event.getEventTime());
+			System.out.println(Clock.getCurrentTime());
 			event.getProcessingElement().handleEvent(event);
 		}
 	}

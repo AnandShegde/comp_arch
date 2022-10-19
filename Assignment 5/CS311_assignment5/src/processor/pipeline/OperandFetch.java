@@ -73,15 +73,23 @@ public class OperandFetch {
 	public void performOF()
 	{
 		System.out.println("operand fetch");
-		if(OF_EX_Latch.getIsBranchTaken()){
+
+		if(IF_OF_Latch.isOFBusy()){
+			return;
+		}
+
+		if(OF_EX_Latch.getIsBranchTaken() && IF_OF_Latch.isOF_enable()){
 			System.out.println("branck taken");
 			OF_EX_Latch.setIsBranchTaken(false);
 			IF_OF_Latch.setOF_enable(false);
 		}
 		else if(IF_OF_Latch.isOF_enable())
 		{
+
+			
+
 			System.out.println("branck not taken");
-			//TODO
+
 
 			int pc = containingProcessor.getRegisterFile().getProgramCounter();
 			// System.out.println(IF_OF_Latch.getInstruction());
@@ -211,6 +219,7 @@ public class OperandFetch {
 
 				IF_OF_Latch.setOF_enable(false);
 				OF_EX_Latch.setEX_enable(true);
+
 
 				//end statement
 				if(insType.get(optcode) == 0){

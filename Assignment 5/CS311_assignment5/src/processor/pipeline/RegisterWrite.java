@@ -25,8 +25,10 @@ public class RegisterWrite {
 			// if instruction being processed is an end instruction, remember to call Simulator.setSimulationComplete(true);
 			String optCode = MA_RW_Latch.getOptCode();
 			if(optCode.equals("11101")){
-				// int pc = containingProcessor.getRegisterFile().getProgramCounter();
-				// containingProcessor.getRegisterFile().setProgramCounter(pc-3);
+
+				//PC should be set to end+1 th statement
+				int pc = containingProcessor.getRegisterFile().getProgramCounter();
+				containingProcessor.getRegisterFile().setProgramCounter(pc+1);
 				Simulator.setSimulationComplete(true);
 			}
 

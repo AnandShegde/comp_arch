@@ -5,11 +5,13 @@ public class IF_EnableLatchType {
 	// Dynamic number of instructions
 	int NumberOfInstructions;
 	boolean IF_enable;
+	boolean IF_busy;
 	
 	public IF_EnableLatchType()
 	{
 		NumberOfInstructions = 0;	
 		IF_enable = true;
+		IF_busy = false;
 	}
 
 	public boolean isIF_enable() {
@@ -28,5 +30,13 @@ public class IF_EnableLatchType {
 	//get number of instructions
 	public int getNumberOfInstructions(){
 		return NumberOfInstructions;
+	}
+
+	public boolean isIFBusy(){
+		return IF_busy;
+	}
+
+	public void setIFBusy(boolean value){
+		IF_busy = value;
 	}
 }
