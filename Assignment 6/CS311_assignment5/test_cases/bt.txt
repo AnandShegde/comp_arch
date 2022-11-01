@@ -1,0 +1,3184 @@
+we are REG
+we are MEM
+We are in EX
+operand fetch
+ins fetch
+we are REG
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 2 Ins = 10110000000001100000000000000000
+op1 rs10 0
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 3 imm 0
+bt 1
+alu 0
+operand fetch
+branck not taken
+pc= 3 Ins = 00010001110011100111000000000000
+op1 rs10 7
+r3 tye op2 rs2 0 dest 7 rd0 rs2 7
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 7 imm 28672
+bt 28674
+alu 0
+operand fetch
+branck not taken
+pc= 4 Ins = 00010001010010100101000000000000
+op1 rs10 5
+r3 tye op2 rs2 0 dest 5 rd0 rs2 5
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 5
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 5 imm 20480
+bt 20483
+alu 0
+operand fetch
+branck not taken
+pc= 5 Ins = 00011000110001100000000000000001
+op1 rs15 3
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 6
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =5 rs2=0 
+rdval 5 dest 3 imm 1
+bt 5
+alu 4
+operand fetch
+branck not taken
+pc= 6 Ins = 00001010010100100000000000000001
+op1 rs10 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 9 imm 1
+bt 6
+alu 1
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs10 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs10 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 1
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs11 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =1 rs2=0 
+rdval 1 dest 9 imm 1
+bt 7
+alu 2
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs11 9
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs11 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 2
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs12 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =2 rs2=0 
+rdval 2 dest 9 imm 1
+bt 8
+alu 3
+operand fetch
+branck not taken
+pc= 9 Ins = 11001001010001100000000000000111
+op1 rs10 5
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 4 dest 3 imm 7
+bt 15
+alu 0
+operand fetch
+branck not taken
+pc= 10 Ins = 00001001100011000000000000000001
+op1 rs10 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 6 imm 1
+bt 10
+alu 1
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs10 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs10 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 1
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs11 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =1 rs2=0 
+rdval 1 dest 6 imm 1
+bt 11
+alu 2
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs11 6
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs11 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 12
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 2
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs12 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =2 rs2=0 
+rdval 2 dest 6 imm 1
+bt 12
+alu 3
+operand fetch
+branck not taken
+pc= 13 Ins = 11000000001111111111111111110111
+rd 0 offset-9
+op1 rs10 0
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 31 imm -9
+bt 3
+alu 0
+operand fetch
+branck taken
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 3
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 4
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 4 Ins = 00010001010010100101000000000000
+op1 rs10 5
+r3 tye op2 rs2 0 dest 5 rd0 rs2 5
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 5 imm 20480
+bt 20483
+alu 0
+operand fetch
+branck not taken
+pc= 5 Ins = 00011000110001100000000000000001
+op1 rs14 3
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =4 rs2=0 
+rdval 4 dest 3 imm 1
+bt 5
+alu 3
+operand fetch
+branck not taken
+pc= 6 Ins = 00001010010100100000000000000001
+op1 rs13 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 4
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =3 rs2=0 
+rdval 3 dest 9 imm 1
+bt 6
+alu 4
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs13 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 3
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs13 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 4
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs14 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =4 rs2=0 
+rdval 4 dest 9 imm 1
+bt 7
+alu 5
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs14 9
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs14 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 5
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs15 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =5 rs2=0 
+rdval 5 dest 9 imm 1
+bt 8
+alu 6
+operand fetch
+branck not taken
+pc= 9 Ins = 11001001010001100000000000000111
+op1 rs10 5
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 3 dest 3 imm 7
+bt 15
+alu 0
+operand fetch
+branck not taken
+pc= 10 Ins = 00001001100011000000000000000001
+op1 rs13 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =3 rs2=0 
+rdval 3 dest 6 imm 1
+bt 10
+alu 4
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs13 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 3
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs13 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 4
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs14 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =4 rs2=0 
+rdval 4 dest 6 imm 1
+bt 11
+alu 5
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs14 6
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs14 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 12
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 5
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs15 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =5 rs2=0 
+rdval 5 dest 6 imm 1
+bt 12
+alu 6
+operand fetch
+branck not taken
+pc= 13 Ins = 11000000001111111111111111110111
+rd 0 offset-9
+op1 rs10 0
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 31 imm -9
+bt 3
+alu 0
+operand fetch
+branck taken
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 3
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 4
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 4 Ins = 00010001010010100101000000000000
+op1 rs10 5
+r3 tye op2 rs2 0 dest 5 rd0 rs2 5
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 5 imm 20480
+bt 20483
+alu 0
+operand fetch
+branck not taken
+pc= 5 Ins = 00011000110001100000000000000001
+op1 rs13 3
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =3 rs2=0 
+rdval 3 dest 3 imm 1
+bt 5
+alu 2
+operand fetch
+branck not taken
+pc= 6 Ins = 00001010010100100000000000000001
+op1 rs16 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 3
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =6 rs2=0 
+rdval 6 dest 9 imm 1
+bt 6
+alu 7
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs16 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 6
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs16 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 7
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs17 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =7 rs2=0 
+rdval 7 dest 9 imm 1
+bt 7
+alu 8
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs17 9
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs17 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 8
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs18 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =8 rs2=0 
+rdval 8 dest 9 imm 1
+bt 8
+alu 9
+operand fetch
+branck not taken
+pc= 9 Ins = 11001001010001100000000000000111
+op1 rs10 5
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 2 dest 3 imm 7
+bt 15
+alu 0
+operand fetch
+branck not taken
+pc= 10 Ins = 00001001100011000000000000000001
+op1 rs16 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =6 rs2=0 
+rdval 6 dest 6 imm 1
+bt 10
+alu 7
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs16 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 6
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs16 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 7
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs17 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =7 rs2=0 
+rdval 7 dest 6 imm 1
+bt 11
+alu 8
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs17 6
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs17 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 12
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 8
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs18 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =8 rs2=0 
+rdval 8 dest 6 imm 1
+bt 12
+alu 9
+operand fetch
+branck not taken
+pc= 13 Ins = 11000000001111111111111111110111
+rd 0 offset-9
+op1 rs10 0
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 31 imm -9
+bt 3
+alu 0
+operand fetch
+branck taken
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 3
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 4
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 4 Ins = 00010001010010100101000000000000
+op1 rs10 5
+r3 tye op2 rs2 0 dest 5 rd0 rs2 5
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 5 imm 20480
+bt 20483
+alu 0
+operand fetch
+branck not taken
+pc= 5 Ins = 00011000110001100000000000000001
+op1 rs12 3
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =2 rs2=0 
+rdval 2 dest 3 imm 1
+bt 5
+alu 1
+operand fetch
+branck not taken
+pc= 6 Ins = 00001010010100100000000000000001
+op1 rs19 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 2
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =9 rs2=0 
+rdval 9 dest 9 imm 1
+bt 6
+alu 10
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs19 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 9
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs19 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 10
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs110 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =10 rs2=0 
+rdval 10 dest 9 imm 1
+bt 7
+alu 11
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs110 9
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs110 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 11
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs111 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =11 rs2=0 
+rdval 11 dest 9 imm 1
+bt 8
+alu 12
+operand fetch
+branck not taken
+pc= 9 Ins = 11001001010001100000000000000111
+op1 rs10 5
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 1 dest 3 imm 7
+bt 15
+alu 0
+operand fetch
+branck not taken
+pc= 10 Ins = 00001001100011000000000000000001
+op1 rs19 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =9 rs2=0 
+rdval 9 dest 6 imm 1
+bt 10
+alu 10
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs19 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 9
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs19 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 11
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 10
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 11 Ins = 00001001100011000000000000000001
+op1 rs110 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =10 rs2=0 
+rdval 10 dest 6 imm 1
+bt 11
+alu 11
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs110 6
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs110 6
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 12
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 11
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 12 Ins = 00001001100011000000000000000001
+op1 rs111 6
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =11 rs2=0 
+rdval 11 dest 6 imm 1
+bt 12
+alu 12
+operand fetch
+branck not taken
+pc= 13 Ins = 11000000001111111111111111110111
+rd 0 offset-9
+op1 rs10 0
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 31 imm -9
+bt 3
+alu 0
+operand fetch
+branck taken
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 3
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 4
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 4 Ins = 00010001010010100101000000000000
+op1 rs10 5
+r3 tye op2 rs2 0 dest 5 rd0 rs2 5
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 5 imm 20480
+bt 20483
+alu 0
+operand fetch
+branck not taken
+pc= 5 Ins = 00011000110001100000000000000001
+op1 rs11 3
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =1 rs2=0 
+rdval 1 dest 3 imm 1
+bt 5
+alu 0
+operand fetch
+branck not taken
+pc= 6 Ins = 00001010010100100000000000000001
+op1 rs112 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 1
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+rs1 =12 rs2=0 
+rdval 12 dest 9 imm 1
+bt 6
+alu 13
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs112 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 12
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs112 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 13
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 7 Ins = 00001010010100100000000000000001
+op1 rs113 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =13 rs2=0 
+rdval 13 dest 9 imm 1
+bt 7
+alu 14
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs113 9
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs113 9
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 14
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 8 Ins = 00001010010100100000000000000001
+op1 rs114 9
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =14 rs2=0 
+rdval 14 dest 9 imm 1
+bt 8
+alu 15
+operand fetch
+branck not taken
+pc= 9 Ins = 11001001010001100000000000000111
+op1 rs10 5
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 3 imm 7
+bt 15
+alu 0
+operand fetch
+branck taken
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 15
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 15
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 16
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 15
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 16 Ins = 11101000000000000000000000000000
+op1 rs10 0
+ins fetch
+we are REG
+we are MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 0 imm 0
+bt 15
+alu 0
+operand fetch
+branck not taken
+pc= 17 Ins = 00000000000000000000000000000000
+op1 rs10 0
+r3 tye op2 rs2 0 dest 0 rd0 rs2 0
+ins fetch
+we are REG
+we are MEM
+we are in MEM
+We are in EX
+rs1 =0 rs2=0 
+rdval 0 dest 0 imm 0
+bt 16
+alu 0
+operand fetch
+branck not taken
+pc= 18 Ins = 00000000000000000000000000000000
+op1 rs10 0
+r3 tye op2 rs2 0 dest 0 rd0 rs2 0
+ins fetch
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 18
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 15
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+we are MEM
+we are in MEM
+We are in EX
+operand fetch
+branck not taken
+pc= 18 Ins = 00000000000000000000000000000000
+op1 rs10 0
+r3 tye op2 rs2 0 dest 0 rd0 rs2 0
+ins fetch
+
+Register File Contents:
+
+PC	: 18
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 12
+x7	: 0
+x8	: 0
+x9	: 15
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+
+Main Memory Contents:
+
+0		: 5
+1		: -1341784064
+2		: 298741760
+3		: 290082816
+4		: 415629313
+5		: 173146113
+6		: 173146113
+7		: 173146113
+8		: -918159353
+9		: 160169985
+10		: 160169985
+11		: 160169985
+12		: -1069547529
+13		: 42115072
+14		: 42115072
+15		: -402653184
+16		: 0
+17		: 0
+18		: 0
+19		: 0
+20		: 0
+21		: 0
+22		: 0
+23		: 0
+24		: 0
+25		: 0
+26		: 0
+27		: 0
+28		: 0
+29		: 0
+30		: 0
+31		: 0
+32		: 0
+33		: 0
+34		: 0
+35		: 0
+36		: 0
+37		: 0
+38		: 0
+39		: 0
+40		: 0
+41		: 0
+42		: 0
+43		: 0
+44		: 0
+45		: 0
+46		: 0
+47		: 0
+48		: 0
+49		: 0
+50		: 0
+51		: 0
+52		: 0
+53		: 0
+54		: 0
+55		: 0
+56		: 0
+57		: 0
+58		: 0
+59		: 0
+60		: 0
+61		: 0
+62		: 0
+63		: 0
+64		: 0
+65		: 0
+66		: 0
+67		: 0
+68		: 0
+69		: 0
+70		: 0
+71		: 0
+72		: 0
+73		: 0
+74		: 0
+75		: 0
+76		: 0
+77		: 0
+78		: 0
+79		: 0
+80		: 0
+81		: 0
+82		: 0
+83		: 0
+84		: 0
+85		: 0
+86		: 0
+87		: 0
+88		: 0
+89		: 0
+90		: 0
+91		: 0
+92		: 0
+93		: 0
+94		: 0
+95		: 0
+96		: 0
+97		: 0
+98		: 0
+99		: 0
+100		: 0
+101		: 0
+102		: 0
+103		: 0
+104		: 0
+105		: 0
+106		: 0
+107		: 0
+108		: 0
+109		: 0
+110		: 0
+111		: 0
+112		: 0
+113		: 0
+114		: 0
+115		: 0
+116		: 0
+117		: 0
+118		: 0
+119		: 0
+120		: 0
+121		: 0
+122		: 0
+123		: 0
+124		: 0
+125		: 0
+126		: 0
+127		: 0
+128		: 0
+129		: 0
+130		: 0
+131		: 0
+132		: 0
+133		: 0
+134		: 0
+135		: 0
+136		: 0
+137		: 0
+138		: 0
+139		: 0
+140		: 0
+141		: 0
+142		: 0
+143		: 0
+144		: 0
+145		: 0
+146		: 0
+147		: 0
+148		: 0
+149		: 0
+150		: 0
+
+
+processor.pipeline.RegisterFile@eed1f14
+Hash of the Processor State = -143564718
