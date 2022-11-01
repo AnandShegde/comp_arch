@@ -1,0 +1,21 @@
+Buildfile: /home/anand/5th sem/comp_arch/Assignment 6/supporting_files/submissionsdi1024/build.xml
+
+build-subprojects:
+
+init:
+    [mkdir] Created dir: /home/anand/5th sem/comp_arch/Assignment 6/supporting_files/submissionsdi1024/bin
+     [copy] Copying 1 file to /home/anand/5th sem/comp_arch/Assignment 6/supporting_files/submissionsdi1024/bin
+
+build-project:
+    [javac] Compiling 31 source files to /home/anand/5th sem/comp_arch/Assignment 6/supporting_files/submissionsdi1024/bin
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 8
+    [javac] 1 warning
+
+build:
+
+make-jar:
+    [mkdir] Created dir: /home/anand/5th sem/comp_arch/Assignment 6/supporting_files/submissionsdi1024/jars
+      [jar] Building jar: /home/anand/5th sem/comp_arch/Assignment 6/supporting_files/submissionsdi1024/jars/simulator.jar
+
+BUILD SUCCESSFUL
+Total time: 1 second

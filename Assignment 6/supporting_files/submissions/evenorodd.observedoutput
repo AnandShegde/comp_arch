@@ -1,0 +1,5481 @@
+we are REG
+we are MEM
+We are in EX
+Process events
+0
+0
+operand fetch
+ins fetch
+ready to send request
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+1
+top element's time
+2
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+2
+top element's time
+2
+queue while loop
+MemoryRead
+2
+2
+Cache handle event
+mem read
+address 1
+handle misss
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+3
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+4
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+5
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+6
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+7
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+8
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+9
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+10
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+11
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+12
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+13
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+14
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+15
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+16
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+17
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+18
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+19
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+20
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+21
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+22
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+23
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+24
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+25
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+26
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+27
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+28
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+29
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+30
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+31
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+32
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+33
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+34
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+35
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+36
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+37
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+38
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+39
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+40
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+41
+top element's time
+42
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+42
+top element's time
+42
+queue while loop
+MemoryRead
+42
+42
+queue while loop
+MemoryResponse
+42
+42
+Cache handle event
+mem respone
+value -1341784064
+-1341784064
+address tag index assIndex 1 0 1 -1
+[3, 0, 1, 2]
+Cache contents
+
+
+
+0
+null
+null
+1
+null
+null
+2
+null
+null
+3
+0
+-1341784064
+queue while loop
+MemoryResponse
+42
+42
+IF he
+If he mem resp
+operand fetch
+branck not taken
+pc= 2 Ins = 10110000000001100000000000000000
+op1 rs10 0
+check data hazards
+optcode dest 10110 32
+check data hazards
+optcode dest 00000 32
+check data hazards
+optcode dest 00000 32
+OF rs1 rs2 rd dest 0 0 0 3
+NO hazard in OF
+ins fetch
+ready to send request
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Ex is not busy
+rs1 =0 rs2=0 
+rdval 0 dest 3 imm 0
+bt 1
+Process events
+2
+43
+top element's time
+44
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+44
+top element's time
+44
+queue while loop
+MemoryRead
+44
+44
+Cache handle event
+mem read
+address 2
+handle misss
+queue while loop
+ExecutionComplete
+44
+44
+alu 0
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+REq mem read in MA
+We are in EX
+Process events
+2
+45
+top element's time
+47
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+46
+top element's time
+47
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+47
+top element's time
+47
+queue while loop
+MemoryRead
+47
+47
+Cache handle event
+mem read
+address 0
+handle misss
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+48
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+49
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+50
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+51
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+52
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+53
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+54
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+55
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+56
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+57
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+58
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+59
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+60
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+61
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+62
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+63
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+64
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+65
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+66
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+67
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+68
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+69
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+70
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+71
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+72
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+73
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+74
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+75
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+76
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+77
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+78
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+79
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+80
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+81
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+82
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+83
+top element's time
+84
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+2
+84
+top element's time
+84
+queue while loop
+MemoryRead
+84
+84
+queue while loop
+MemoryResponse
+84
+84
+Cache handle event
+mem respone
+value 952500226
+952500226
+address tag index assIndex 2 0 2 -1
+[3, 0, 1, 2]
+Cache contents
+
+
+
+0
+null
+null
+1
+null
+null
+2
+null
+null
+3
+0
+952500226
+queue while loop
+MemoryResponse
+84
+84
+IF he
+If he mem resp
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 3
+check data hazards
+optcode dest 00000 32
+OF rs1 rs2 rd dest 3 0 0 3
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+1
+85
+top element's time
+87
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 3
+check data hazards
+optcode dest 00000 32
+OF rs1 rs2 rd dest 3 0 0 3
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+1
+86
+top element's time
+87
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 3
+check data hazards
+optcode dest 00000 32
+OF rs1 rs2 rd dest 3 0 0 3
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA busy
+We are in EX
+Process events
+1
+87
+top element's time
+87
+queue while loop
+MemoryRead
+87
+87
+queue while loop
+MemoryResponse
+87
+87
+Cache handle event
+mem respone
+value 11
+11
+address tag index assIndex 0 0 0 -1
+[3, 0, 1, 2]
+Cache contents
+
+
+
+0
+null
+null
+1
+null
+null
+2
+null
+null
+3
+0
+11
+queue while loop
+MemoryResponse
+87
+87
+handle event MA
+MemoryResponse
+MEm response
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs10 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 32
+check data hazards
+optcode dest 10110 3
+OF rs1 rs2 rd dest 3 0 0 3
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 3
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 11
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+Incrementing instructions
+optcode dest alu iswriteback 10110 3 0 true
+88
+we are MEM
+We are in EX
+Process events
+0
+88
+operand fetch
+branck not taken
+pc= 3 Ins = 00111000110001100000000000000010
+op1 rs111 3
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 10110 32
+check data hazards
+optcode dest 10110 32
+OF rs1 rs2 rd dest 3 0 11 3
+NO hazard in OF
+ins fetch
+ready to send request
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Ex is not busy
+rs1 =11 rs2=0 
+rdval 11 dest 3 imm 2
+bt 4
+Process events
+2
+89
+top element's time
+90
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+90
+top element's time
+90
+queue while loop
+MemoryRead
+90
+90
+Cache handle event
+mem read
+address 3
+handle misss
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+91
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+92
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+93
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+94
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+95
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+96
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+97
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+98
+top element's time
+99
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+99
+top element's time
+99
+queue while loop
+ExecutionComplete
+99
+99
+alu 5
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+We are in EX
+Process events
+1
+100
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 4
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 1
+
+
+Incrementing instructions
+optcode dest alu iswriteback 00111 3 5 true
+101
+we are MEM
+We are in EX
+Process events
+1
+101
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+102
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+103
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+104
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+105
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+106
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+107
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+108
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+109
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+110
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+111
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+112
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+113
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+114
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+115
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+116
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+117
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+118
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+119
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+120
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+121
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+122
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+123
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+124
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+125
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+126
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+127
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+128
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+129
+top element's time
+130
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+130
+top element's time
+130
+queue while loop
+MemoryRead
+130
+130
+queue while loop
+MemoryResponse
+130
+130
+Cache handle event
+mem respone
+value -935460860
+-935460860
+address tag index assIndex 3 0 3 -1
+[3, 0, 1, 2]
+Cache contents
+
+
+
+0
+null
+null
+1
+null
+null
+2
+null
+null
+3
+0
+-935460860
+queue while loop
+MemoryResponse
+130
+130
+IF he
+If he mem resp
+operand fetch
+branck not taken
+pc= 4 Ins = 11001000001111100000000000000100
+op1 rs10 0
+check data hazards
+optcode dest 11001 32
+check data hazards
+optcode dest 00111 32
+check data hazards
+optcode dest 00111 32
+OF rs1 rs2 rd dest 0 0 1 31
+NO hazard in OF
+BGT BGT BGT BGT BGT Op1 = 0
+BGT BGT BGT BGT BGT dest = 1
+ins fetch
+ready to send request
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Ex is not busy
+rs1 =0 rs2=0 
+rdval 1 dest 31 imm 4
+bt 7
+Process events
+2
+131
+top element's time
+132
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+132
+top element's time
+132
+queue while loop
+MemoryRead
+132
+132
+Cache handle event
+mem read
+address 4
+handle misss
+queue while loop
+ExecutionComplete
+132
+132
+alu 0
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+We are in EX
+Process events
+1
+133
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 5
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 1
+
+
+Incrementing instructions
+optcode dest alu iswriteback 11001 31 0 false
+134
+we are MEM
+We are in EX
+Process events
+1
+134
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+135
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+136
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+137
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+138
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+139
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+140
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+141
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+142
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+143
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+144
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+145
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+146
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+147
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+148
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+149
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+150
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+151
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+152
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+153
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+154
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+155
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+156
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+157
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+158
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+159
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+160
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+161
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+162
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+163
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+164
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+165
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+166
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+167
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+168
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+169
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+170
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+171
+top element's time
+172
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+172
+top element's time
+172
+queue while loop
+MemoryRead
+172
+172
+queue while loop
+MemoryResponse
+172
+172
+Cache handle event
+mem respone
+value 311730176
+311730176
+address tag index assIndex 4 0 4 -1
+[3, 0, 1, 2]
+Cache contents
+
+
+
+0
+null
+null
+1
+null
+null
+2
+null
+null
+3
+0
+311730176
+queue while loop
+MemoryResponse
+172
+172
+IF he
+If he mem resp
+operand fetch
+branck not taken
+pc= 5 Ins = 00010010100101001010000000000000
+op1 rs10 10
+r3 tye op2 rs2 0 dest 10 rd0 rs2 10
+check data hazards
+optcode dest 00010 32
+check data hazards
+optcode dest 11001 32
+check data hazards
+optcode dest 11001 32
+OF rs1 rs2 rd dest 10 10 0 10
+NO hazard in OF
+ins fetch
+ready to send request
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Ex is not busy
+rs1 =0 rs2=0 
+rdval 0 dest 10 imm 40960
+bt 40964
+Process events
+2
+173
+top element's time
+174
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+174
+top element's time
+174
+queue while loop
+MemoryRead
+174
+174
+Cache handle event
+mem read
+address 5
+handle misss
+queue while loop
+ExecutionComplete
+174
+174
+alu 0
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+We are in EX
+Process events
+1
+175
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 6
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 1
+
+
+Incrementing instructions
+optcode dest alu iswriteback 00010 10 0 true
+176
+we are MEM
+We are in EX
+Process events
+1
+176
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+177
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+178
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+179
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+180
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+181
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+182
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+183
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+184
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+185
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+186
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+187
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+188
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+189
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+190
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+191
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+192
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+193
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+194
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+195
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+196
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+197
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+198
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+199
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+200
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+201
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+202
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+203
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+204
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+205
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+206
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+207
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+208
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+209
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+210
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+211
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+212
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+213
+top element's time
+214
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+214
+top element's time
+214
+queue while loop
+MemoryRead
+214
+214
+queue while loop
+MemoryResponse
+214
+214
+Cache handle event
+mem respone
+value 177471489
+177471489
+address tag index assIndex 5 0 5 -1
+[3, 0, 1, 2]
+Cache contents
+
+
+
+0
+null
+null
+1
+null
+null
+2
+null
+null
+3
+0
+177471489
+queue while loop
+MemoryResponse
+214
+214
+IF he
+If he mem resp
+operand fetch
+branck not taken
+pc= 6 Ins = 00001010100101000000000000000001
+op1 rs10 10
+check data hazards
+optcode dest 00001 32
+check data hazards
+optcode dest 00010 32
+check data hazards
+optcode dest 00010 32
+OF rs1 rs2 rd dest 10 0 0 10
+NO hazard in OF
+ins fetch
+ready to send request
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Ex is not busy
+rs1 =0 rs2=0 
+rdval 0 dest 10 imm 1
+bt 6
+Process events
+2
+215
+top element's time
+216
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+2
+216
+top element's time
+216
+queue while loop
+MemoryRead
+216
+216
+Cache handle event
+mem read
+address 6
+handle misss
+queue while loop
+ExecutionComplete
+216
+216
+alu 1
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+We are in EX
+Process events
+1
+217
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 1
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 1
+
+
+Incrementing instructions
+optcode dest alu iswriteback 00001 10 1 true
+218
+we are MEM
+We are in EX
+Process events
+1
+218
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+219
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+220
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+221
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+222
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+223
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+224
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+225
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+226
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+227
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+228
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+229
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+230
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+231
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+232
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+233
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+234
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+235
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+236
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+237
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+238
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+239
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+240
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+241
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+242
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+243
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+244
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+245
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+246
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+247
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+248
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+249
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+250
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+251
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+252
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+253
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+254
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+255
+top element's time
+256
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+Process events
+1
+256
+top element's time
+256
+queue while loop
+MemoryRead
+256
+256
+queue while loop
+MemoryResponse
+256
+256
+Cache handle event
+mem respone
+value -402653184
+-402653184
+address tag index assIndex 6 0 6 -1
+[3, 0, 1, 2]
+Cache contents
+
+
+
+0
+null
+null
+1
+null
+null
+2
+null
+null
+3
+0
+-402653184
+queue while loop
+MemoryResponse
+256
+256
+IF he
+If he mem resp
+operand fetch
+branck not taken
+pc= 7 Ins = 11101000000000000000000000000000
+op1 rs10 0
+check data hazards
+optcode dest 11101 32
+check data hazards
+optcode dest 00001 32
+check data hazards
+optcode dest 00001 32
+OF rs1 rs2 rd dest 0 0 0 0
+NO hazard in OF
+Set if busy : end
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Ex is not busy
+rs1 =0 rs2=0 
+rdval 0 dest 0 imm 0
+bt 6
+Process events
+1
+257
+top element's time
+258
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+We are in EX
+EX is enabled
+Process events
+1
+258
+top element's time
+258
+queue while loop
+ExecutionComplete
+258
+258
+alu 0
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are MEM
+MA Enabled
+MA not busy
+We are in EX
+Process events
+0
+259
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+we are REG
+we are in REG
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 1
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 1
+
+
+Incrementing instructions
+optcode dest alu iswriteback 11101 0 0 false
+260
+we are MEM
+We are in EX
+Process events
+0
+260
+operand fetch
+ins fetch
+
+
+
+
+
+
+
+
+Register File Contents:
+
+PC	: 7
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 5
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 1
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 1
+
+
+
+Main Memory Contents:
+
+0		: 11
+1		: -1341784064
+2		: 952500226
+3		: -935460860
+4		: 311730176
+5		: 177471489
+6		: -402653184
+7		: 311730176
+8		: 445906945
+9		: -402653184
+10		: 0
+11		: 0
+12		: 0
+13		: 0
+14		: 0
+15		: 0
+16		: 0
+17		: 0
+18		: 0
+19		: 0
+20		: 0
+21		: 0
+22		: 0
+23		: 0
+24		: 0
+25		: 0
+26		: 0
+27		: 0
+28		: 0
+29		: 0
+30		: 0
+31		: 0
+32		: 0
+33		: 0
+34		: 0
+35		: 0
+36		: 0
+37		: 0
+38		: 0
+39		: 0
+40		: 0
+41		: 0
+42		: 0
+43		: 0
+44		: 0
+45		: 0
+46		: 0
+47		: 0
+48		: 0
+49		: 0
+50		: 0
+51		: 0
+52		: 0
+53		: 0
+54		: 0
+55		: 0
+56		: 0
+57		: 0
+58		: 0
+59		: 0
+60		: 0
+61		: 0
+62		: 0
+63		: 0
+64		: 0
+65		: 0
+66		: 0
+67		: 0
+68		: 0
+69		: 0
+70		: 0
+71		: 0
+72		: 0
+73		: 0
+74		: 0
+75		: 0
+76		: 0
+77		: 0
+78		: 0
+79		: 0
+80		: 0
+81		: 0
+82		: 0
+83		: 0
+84		: 0
+85		: 0
+86		: 0
+87		: 0
+88		: 0
+89		: 0
+90		: 0
+91		: 0
+92		: 0
+93		: 0
+94		: 0
+95		: 0
+96		: 0
+97		: 0
+98		: 0
+99		: 0
+100		: 0
+101		: 0
+102		: 0
+103		: 0
+104		: 0
+105		: 0
+106		: 0
+107		: 0
+108		: 0
+109		: 0
+110		: 0
+111		: 0
+112		: 0
+113		: 0
+114		: 0
+115		: 0
+116		: 0
+117		: 0
+118		: 0
+119		: 0
+120		: 0
+121		: 0
+122		: 0
+123		: 0
+124		: 0
+125		: 0
+126		: 0
+127		: 0
+128		: 0
+129		: 0
+130		: 0
+131		: 0
+132		: 0
+133		: 0
+134		: 0
+135		: 0
+136		: 0
+137		: 0
+138		: 0
+139		: 0
+140		: 0
+141		: 0
+142		: 0
+143		: 0
+144		: 0
+145		: 0
+146		: 0
+147		: 0
+148		: 0
+149		: 0
+150		: 0
+
+
+processor.pipeline.RegisterFile@46fbb2c1
+Hash of the Processor State = -224294686

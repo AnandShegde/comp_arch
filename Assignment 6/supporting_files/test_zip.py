@@ -15,7 +15,8 @@ for i in range(0, len(zip_file.split("/")[l-1].split("_"))):
 	print zip_file.split("/")[l-1].split("_")[i].split(".")[0]
 print ""
 
-submissions_temp_dir = "./submissions/" 
+submissions_temp_dir = "./submissions"+ zip_file.split("/")[l-1].split("_")[i].split(".")[0]+"/"
+print submissions_temp_dir
 
 if not os.path.exists(submissions_temp_dir):
 	os.mkdir(submissions_temp_dir)
@@ -85,8 +86,8 @@ for testcase in os.listdir(test_cases_dir):
 		else:
 			print testcase + " : fail - standard output file not created"
 
-os.chdir("..")
+#os.chdir("..")
 
-shutil.rmtree(submissions_temp_dir)
+#shutil.rmtree(submissions_temp_dir)
 
 print "\ntotal score = " + str(scored_marks) + " out of " + str(total_marks)
