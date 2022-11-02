@@ -1,0 +1,3 @@
+Number of instructions executed = 104
+Number of cycles taken = 1107
+Throughput = 0.0939476061427281
